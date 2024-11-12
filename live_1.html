@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="bootStrap/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="bg-dark live">
+    <header class = "shadow-sm fixed-top bg-dark">
+        <div class="container pr-0 pl-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark flex-row-reverse pr-0">
+                <a class="navbar-brand text-right" href="index.html"><img src="img/logo.webp" class = "mw-100" alt=""></a>
+                <div class="btns order-lg-3">
+                    <button class="navbar-toggler order-md-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                    <ul class="navbar-nav flex-md-column-reverse flex-lg-row-reverse text-right pr-4">
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="index.html" opin = "true">الرئيسيه</a>
+                        </li>
+                        <li class="nav-item position-relative" style="--color: #999">
+                            <a class="nav-link" href="#" opin = "true">نتائج مباشره</a>
+                        </li>
+                        <li class="nav-item position-relative" style="--color: #999">
+                            <a class="nav-link" href="video.html" opin = "true">الفيديو</a>
+                        </li>
+                        <li class="nav-item position-relative" style="--color: #999">
+                            <a class="nav-link" href="live_1.html" opin = "true">مباشر</a>
+                        </li>
+                        <li class="nav-item position-relative" style="--color: #999">
+                            <a class="nav-link" href="live.html" opin = "true">جدول البث</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <article class="pt-5 mt-5">
+        <div class="container">
+            <div class="header d-flex justify-content-between align-items-end" dir="rtl">
+                <img src="img/download.jfif" style="width: 130px;height: 25px;" alt="" class="rounded p-0">
+                <a href="#" class="btn btn-sm btn-outline-light">سجل الدخول</a>
+            </div>
+            <div class="slideShow mt-4 mb-4 rounded">
+                <div id="carouselExampleIndicators" class="carousel slide rounded" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" style="width: 10px !important;height: 10px; border-radius: 50%;" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" style="width: 10px !important;height: 10px; border-radius: 50%;" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" style="width: 10px !important;height: 10px; border-radius: 50%;" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" style="width: 10px !important;height: 10px; border-radius: 50%;" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" style="width: 10px !important;height: 10px; border-radius: 50%;" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" style="width: 10px !important;height: 10px; border-radius: 50%;" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item active position-relative" style="width: 100%;height: 500px !important;">
+                            <img src="img/champions_assya.jfif" class="d-block w-100 rounded" alt="..." style="max-width: 100% !important;object-fit: cover; height: 100% !important;">
+                            <div class="position-absolute w-100 text-center" style="top: 50%;transform: translateY(-50%);left: 0;z-index: 3;">
+                                <div class="main_logo"><img src="img/champions_assya_logo.png" alt="" class="mw-100"></div>
+                                <div class="teams_logo d-flex justify-content-around align-items-start">
+                                    <div class="team text-light">
+                                        <img src="img/lega/eleen.png" alt="">
+                                        العين
+                                    </div>
+                                    <div class="team text-light mt-3 d-flex flex-column align-items-center">
+                                        <div class="spinner-grow spinner-grow-sm text-danger"></div>
+                                        <p class="small bg-danger mt-2 pl-2 pr-2 rounded">مباشر</p>
+                                    </div>
+                                    <div class="team text-light">
+                                        <img src="img/lega/al_helal.png" alt="" >
+                                        الهلال
+                                    </div>
+                                </div>
+                                <div class="main_logo position-relative">
+                                    <div class="btn btn-purple text-center rounded-circle"><i class="fa-solid fa-play"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative" style="width: 100%;height: 500px !important;">
+                            <img src="img/liver_champions.jfif" class="d-block w-100 rounded" alt="..." style="max-width: 100% !important;object-fit: cover; height: 100% !important;">
+                            <div class="position-absolute w-100 text-center" style="top: 50%;transform: translateY(-50%);left: 0;z-index: 3;">
+                                <div class="main_logo"><img src="img/champions_logo.png" alt="" class="mw-100"></div>
+                                <div class="teams_logo d-flex justify-content-around align-items-start">
+                                    <div class="team text-light">
+                                        <img src="img/lega/real.png" alt="">
+                                        ريال مدريد
+                                    </div>
+                                    <div class="team text-light mt-3 d-flex flex-column align-items-center">
+                                        <div class="spinner-grow spinner-grow-sm text-danger"></div>
+                                        <p class="small bg-danger mt-2 pl-2 pr-2 rounded">مباشر</p>
+                                    </div>
+                                    <div class="team text-light">
+                                        <img src="img/lega/barcel.png" alt="" >
+                                        برشلونه
+                                    </div>
+                                </div>
+                                <div class="main_logo">
+                                    <div class="btn btn-purple text-center rounded-circle"><i class="fa-solid fa-play"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative" style="width: 100%;height: 500px !important;">
+                            <img src="img/marcelya_bg.jfif" class="d-block w-100 rounded" alt="..." style="max-width: 100% !important;object-fit: cover; height: 100% !important;">
+                            <div class="position-absolute w-100 text-center" style="top: 50%;transform: translateY(-50%);left: 0;z-index: 3;">
+                                <div class="main_logo"><img src="img/champions_logo.png" alt="" class="mw-100"></div>
+                                <div class="teams_logo d-flex justify-content-around align-items-start">
+                                    <div class="team text-light">
+                                        <img src="img/lega/marcelya.png" alt="">
+                                        مارسيليا
+                                    </div>
+                                    <div class="team text-light mt-3 d-flex flex-column align-items-center">
+                                        <div class="spinner-grow spinner-grow-sm text-danger"></div>
+                                        <p class="small bg-danger mt-2 pl-2 pr-2 rounded">مباشر</p>
+                                    </div>
+                                    <div class="team text-light">
+                                        <img src="img/lega/byern.png" alt="" >
+                                        بيرن ميونيخ
+                                    </div>
+                                </div>
+                                <div class="main_logo">
+                                    <div class="btn btn-purple text-center rounded-circle"><i class="fa-solid fa-play"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative" style="width: 100%;height: 500px !important;">
+                            <img src="img/real_madrid.jfif" class="d-block w-100 rounded" alt="..." style="max-width: 100% !important;object-fit: cover; height: 100% !important;">
+                            <div class="position-absolute w-100 text-center" style="top: 50%;transform: translateY(-50%);left: 0;z-index: 3;">
+                                <div class="main_logo"><img src="img/second_logo.png" alt="" class="mw-100"></div>
+                                <div class="teams_logo d-flex justify-content-around align-items-start">
+                                    <div class="team text-light">
+                                        <img src="img/lega/toten.png" alt="">
+                                        توتنهام
+                                    </div>
+                                    <div class="team text-light mt-3 d-flex flex-column align-items-center">
+                                        <div class="spinner-grow spinner-grow-sm text-danger"></div>
+                                        <p class="small bg-danger mt-2 pl-2 pr-2 rounded">مباشر</p>
+                                    </div>
+                                    <div class="team text-light">
+                                        <img src="img/lega/galta.png" alt="" >
+                                        غلطه سراي
+                                    </div>
+                                </div>
+                                <div class="main_logo">
+                                    <div class="btn btn-purple text-center rounded-circle"><i class="fa-solid fa-play"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative" style="width: 100%;height: 500px !important;">
+                            <img src="img/real_madrid.jfif" class="d-block w-100 rounded" alt="..." style="max-width: 100% !important;object-fit: cover; height: 100% !important;">
+                            <div class="position-absolute w-100 text-center" style="top: 50%;transform: translateY(-50%);left: 0;z-index: 3;">
+                                <div class="main_logo"><img src="img/second_logo.png" alt="" class="mw-100"></div>
+                                <div class="teams_logo d-flex justify-content-around align-items-start">
+                                    <div class="team text-light">
+                                        <img src="img/lega/roma.png" alt="">
+                                        روما
+                                    </div>
+                                    <div class="team text-light mt-3 d-flex flex-column align-items-center">
+                                        <div class="spinner-grow spinner-grow-sm text-danger"></div>
+                                        <p class="small bg-danger mt-2 pl-2 pr-2 rounded">مباشر</p>
+                                    </div>
+                                    <div class="team text-light">
+                                        <img src="img/lega/chelse.png" alt="" >
+                                        اتشلسي
+                                    </div>
+                                </div>
+                                <div class="main_logo">
+                                    <div class="btn btn-purple text-center rounded-circle"><i class="fa-solid fa-play"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative" style="width: 100%;height: 500px !important;">
+                            <img src="img/real_madrid.jfif" class="d-block w-100 rounded" alt="..." style="max-width: 100% !important;object-fit: cover; height: 100% !important;">
+                            <div class="position-absolute w-100 text-center" style="top: 50%;transform: translateY(-50%);left: 0;z-index: 3;">
+                                <div class="main_logo"><img src="img/second_logo.png" alt="" class="mw-100"></div>
+                                <div class="teams_logo d-flex justify-content-around align-items-start">
+                                    <div class="team text-light">
+                                        <img src="img/lega/melan.png" alt="">
+                                        ميلان
+                                    </div>
+                                    <div class="team text-light mt-3 d-flex flex-column align-items-center">
+                                        <div class="spinner-grow spinner-grow-sm text-danger"></div>
+                                        <p class="small bg-danger mt-2 pl-2 pr-2 rounded">مباشر</p>
+                                    </div>
+                                    <div class="team text-light">
+                                        <img src="img/download.png" alt="" >
+                                        اياكس
+                                    </div>
+                                </div>
+                                <div class="main_logo">
+                                    <div class="btn btn-purple text-center rounded-circle"><i class="fa-solid fa-play"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="btn-group btn-group-sm mb-3">
+                <div class="btn btn-secondary x-right"><i class="fa-solid fa-less-than"></i></div>
+                <div class="btn btn-secondary x-left"><i class="fa-solid fa-greater-than"></i></div>
+            </div>
+            <div class="father pt-2 pb-2 position-relative" dir="ltr" style="overflow: auto;">
+                <div class="child d-flex" style="gap: 20px;transition:all 0.5s !important;">
+                    <img src="img/lega/laligue.png" alt="">
+                    <img src="img/lega/champions_league.png" alt="">
+                    <img src="img/lega/AFC CHAM.jfif" alt="">
+                    <img src="img/lega/ligue_1.png" alt="">
+                    <img src="img/lega/euro.png" alt="">
+                    <img src="img/lega/tour.png" alt="">
+                    <img src="img/lega/none.png" alt="">
+                    <img src="img/lega/bundesliga.png" alt="">
+                    <img src="img/lega/ASIAN.png" alt="">
+                    <img src="img/lega/AFC CHAM.jfif" alt="">
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="bg-purple pt-4 pb-4 mt-2">
+        <div class="container">
+            <div class="row" dir="rtl">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1 text-right this d-flex justify-content-between">
+                    <ul class="list-group bg-transparent text-white list-group-flush p-1" dir="rtl">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3">
+                            <h4>الدعم</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">اتصل بنا</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">beIN CONNECT</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">beIN MEDIA GROUP</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">الاسئله الاكثر شيوعا</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN</bdi> نبذه عن مجموعه </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>   ترددات  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> دليل التلفاز </a>
+                        </li>
+                    </ul>
+                    <ul class="list-group bg-transparent text-white list-group-flush mr-2 mt-1 p-0">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3 invisible">
+                            <h4>الدعم</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">احصل علي <bdi>beIN</bdi></a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">اشترك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">بلدي <bdi>beIN</bdi> </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">مركز الاتصال</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>  امريكا  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>   استراليا  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> معلومات عن هذا الموقع </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 this pr-sm-1 pr-lg-5 last pt-1">
+                    <ul class="list-group bg-transparent text-white list-group-flush p-1 text-right" dir="rtl">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3">
+                            <h4>تابعونا</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">فيسبوك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">x</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">يوتيوب</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">انستجرام</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">تيك توك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> واتساب </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> نريدز</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class = "links pt-4 w-md-100">
+                        <div class = "link_1">
+                            <a href="#">
+                                <img src="img/brand.webp" alt="" width="190" style="max-width: 100%;">
+                            </a>
+                        </div>
+                        <p class="mt-5 font-weight-bolder text-white">قم بتنزيل تطبيقاتنا</p>
+                        <div class="link_1">
+                            <a href="#">
+                                <img src="img/link_1.png" alt="" class="ml-2 d-inline-block" width="120">
+                            </a>
+                            <a href="#">
+                                <img src="img/link_2.png" alt=""  width="120">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src = "bootStrap/popper.min.js"></script>
+<script src = "bootStrap/jquery-3.7.1.min.js"></script>
+<script src = "bootStrap/bootstrap.js"></script>
+<script src = "css/index.js"></script>
+</html>

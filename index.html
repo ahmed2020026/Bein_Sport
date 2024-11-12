@@ -1,0 +1,2084 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="bootStrap/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body class = "bg-light">
+    <header class = "shadow-sm fixed-top bg-light">
+        <div class="container pr-0 pl-0">
+            <nav class="navbar navbar-expand-lg navbar-light flex-row-reverse pr-0">
+                <a class="navbar-brand text-right" href="#"><img src="img/logo.webp" class = "mw-100" alt=""></a>
+                <div class="btns order-lg-3">
+                    <button class="navbar-toggler order-md-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class = "btn btn-default text-secandary" id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                    <ul class="navbar-nav flex-md-column-reverse flex-lg-row-reverse text-right pr-4">
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="index.html" opin = "true">الرئيسيه</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="file.html" opin = "true">نتائج مباشره</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="video.html" opin = "true">الفيديو</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="live_1.html" opin = "true">مباشر</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="live.html" opin = "true">جدول البث</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container mt-5 pt-4 pr-1 pl-1">
+            <div class="scroll-bar">
+                <ul class = "list-group list-group-horizontal row list-group-flush bg-transparent flex-row-reverse" style="background-color: transparent">
+                    <li class = "list-group-item col text-center border-0 p-0 m-2 bg-light"><a href="#" class = "text-dark d-block text-nowrap" opin = "true">كره القدم</a></li>
+                    <li class = "list-group-item col text-center border-0 p-0 m-2 bg-light"><a href="#" class = "text-dark d-block text-nowrap" opin = "true"> الدوري الانجليزي</a></li>
+                    <li class = "list-group-item col text-center border-0 p-0 m-2 bg-light"><a href="#" class = "text-dark d-block text-nowrap" opin = "true"> الدوري الاسباني</a></li>
+                    <li class = "list-group-item col text-center border-0 p-0 m-2 bg-light"><a href="#" class = "text-dark d-block text-nowrap" opin = "true"> الدوري الفرنسي</a></li>
+                    <li class = "list-group-item col text-center border-0 p-0 m-2 bg-light"><a href="#" class = "text-dark d-block text-nowrap" opin = "true"> الدوري الالماني</a></li>
+                    <li class = "list-group-item col text-center border-0 p-0 m-2 bg-light"><a href="#" class = "text-dark d-block text-nowrap" opin = "true"> دوري ابطال اوروبا</a></li>
+                    <li class = "list-group-item col text-center border-0 p-0 m-2 bg-light"><a href="#" class = "text-dark d-block text-nowrap" opin = "true"> دوري ابطال افريقيا</a></li>
+                    <li class = "list-group-item col text-center border-0 p-0 m-2 bg-light"><a href="#" class = "text-dark d-block text-nowrap" opin = "true"> كاس الاتحاد الاوروبي</a></li>
+                    <li class = "list-group-item col text-center border-0 p-0 m-2 bg-light"><a href="#" class = "text-dark d-block text-nowrap" opin = "true"> كاس الاتحاد الافريقي</a></li>
+                    <li class = "list-group-item col text-center border-0 p-0 m-2 bg-light"><a href="#" class = "text-dark d-block text-nowrap" opin = "true"> كره السله</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <article>
+        <section>
+            <div class="container bg-light">
+                <div class="row justify-content-between flex-row-reverse">
+                    <div class="col-lg-8 col-md-12 p-2 pb-0">
+                        <div class = "shadow p-3 pb-0 bg-white rounded">
+                            <h4 style="font-size: 16px" class="text-right mb-3">المسابقات</h4>
+                            <div class="pt-2 pr-5 pb-1 scroll-bar">
+                                <div class = "d-flex" style="width: 600px;">
+                                    <a href="#" class="p-2 pr-3 text-dark d-flex justify-content-end mr-1 ml-1" style=" min-width: 200px;">
+                                        <span>الدوري الفرنسي</span>
+                                        <img src="img/french.png" width="30" alt="" class="ml-3">
+                                    </a>
+                                    <a href="#" class="p-2 pr-3 text-dark d-flex justify-content-end mr-1 ml-1" style=" min-width: 200px;">
+                                        <span>الدوري الاسباني</span>
+                                        <img src="img/lalga.png" width="30" alt="" class="ml-3">
+                                    </a>
+                                    <a href="#" class="p-2 pr-3 text-dark d-flex justify-content-end mr-1 ml-1" style=" min-width: 200px;">
+                                        <span>دوري ابطال اوروبا</span>
+                                        <img src="img/uropa_cup_1.png" width="30" alt="" class="ml-3">
+                                    </a>
+                                    <a href="#" class="p-2 pr-3 text-dark d-flex justify-content-end mr-1 ml-1" style=" min-width: 200px;">
+                                        <span>الدوري الالماني</span>
+                                        <img src="img/german.png" width="30" alt="" class="ml-3">
+                                    </a>
+                                    <a href="#" class="p-2 pr-3 text-dark d-flex justify-content-end mr-1 ml-1" style=" min-width: 200px;" opin = "same">
+                                        <span>دوري ابطال اسيا </span>
+                                        <img src="img/asya_hero.png" width="30" alt="" class="ml-3">
+                                    </a>
+                                    <a href="#" class="p-2 pr-3 text-dark d-flex justify-content-end mr-1 ml-1" style=" min-width: 200px;" opin = "same">
+                                        <span>الدوري الايطالي</span>
+                                        <img src="img/italia.png" width="30" alt="" class="ml-3">
+                                    </a>
+                                    <a href="#" class="p-2 pr-3 text-dark d-flex justify-content-end mr-1 ml-1" style=" min-width: 200px;" >
+                                        <span>الدوري الانجليزي</span>
+                                        <img src="img/prim.png" width="30" alt="" class="ml-3">
+                                    </a>
+                                    <a href="#" class="p-2 pr-3 text-dark d-flex justify-content-end mr-1 ml-1" style=" min-width: 200px;" opin = "same">
+                                        <span>الدوري الاوروبي</span>
+                                        <img src="img/uropa_cup_2.png" width="30" alt="" class="ml-3">
+                                    </a>
+                                    <a href="#" class="p-2 pr-3 text-dark d-flex justify-content-end mr-1 ml-1" style=" min-width: 200px;" opin = "same">
+                                        <span>كأس السوبر الاوروبي</span>
+                                        <img src="img/urop_cup_top.png" width="30" alt="" class="ml-1">
+                                    </a>
+                                    <div class = "invisible">0</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class = "matches mt-3 shadow bg-white rounded-bottom">
+                            <div class="card text-right border-top-0 border-right-0 border-left-0">
+                                <div class="card-header text-white mb-1" style="background-color: var(--color);">
+                                    اهم المباريات
+                                </div>
+                                <div class="card-body p-0">
+                                    <img src="img/helal.jfif" alt="" class = "mw-100">
+                                </div>
+                                <div class="card-footer bg-white p-1 p-sm-2 p-md-3">
+                                    <a href="#">
+                                        <p class = "text-purple mb-1">دوري ابطال اسيا للنخبه</p>
+                                        <h4 class= "text-dark">الهلال يحقق فوزا مثيرا علي مستضيفه العين</h4>
+                                        <p class = "text-dark">حقق الهلال السعودي فوزا مثيرا علي مستضيفه العين الاماراتي بخمسه اهداف مقابل اربعه في اطار الجوله الثالثه من مرحله الدوري ضمن بطوله دوري ابطال اسيا  للنخبه</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <ul class="list-group p-md-3 p-sm-2 " data-def="matches">
+                                <li class="list-group-item border-0" >
+                                    <a href="#" class="row justify-content-start rounded bg-white mt-2" style="box-shadow: 0 0 10px #00000041;">
+                                        <div class="text-title col-md-8 col-sm-6 col-8   text-right pt-2">
+                                            <p class = "text-purple mb-1">دوري ابطال اسيا للنخبه</p>
+                                            <p class = "text-dark font-weight-bolder">السد يواصل انتصاراته ويتفوق علي ضيفه برسبوليس</p>
+                                        </div>
+                                        <img src="img/sad.jfif" alt="" class = "col-md-4 col-sm-6 col-4 p-0 rounded-right">
+                                    </a>
+                                </li>
+                                <li class="list-group-item border-0" >
+                                    <a href="#" class="row justify-content-start rounded bg-white" style="box-shadow: 0 0 10px #00000041;">
+                                        <div class="text-title col-md-8 col-sm-6 col-8   text-right pt-2">
+                                            <p class = "text-purple mb-1">دوري ابطال اسيا للنخبه</p>
+                                            <p class = "text-dark font-weight-bolder">الاهلي يحقق الفوز علي مستضيفه الريان</p>
+                                        </div>
+                                        <img src="img/elRayan.jfif" alt="" class = "col-md-4 col-sm-6 col-4 p-0 rounded-right">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="bg-transparent text-center">
+                                <hr class = "" style="margin: 35px 25px -35px 25px ">
+                                <div class="p-3">
+                                    <div class = "btn btn-outline-purple clickMore" style="box-shadow: 0 0 0 10px #fff;">عرض المزيد</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="last_news mt-3 shadow bg-white rounded pl-4 position-relative">
+                            <h4 style="font-size: 16px" class="text-right p-3 pr-4">احدث اخبار كرة القدم</h4>
+                            
+                            <div class="scroll-horizontial p-1">
+                                <div class = "fixed bg-white mt-5 right" data="right" style="right: 0; padding: 116px 0;box-shadow: -5px 0 10px #ffffff;"><div class="btn btn-outline-purple btn-sm">&#8918</div></div>
+                                <div class="card-component">
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/las.jpg" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الاسباني الممتاز</ح>
+                                            <p class="card-text font-weight-bolder">لاس بالماس يحسم مواجهة القاع ويهزم فالنسيا</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/cress.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0"> الدوري الانجليزي</p>
+                                            <p class="card-text font-weight-bolder">كريس وود يقود نوتينغهام للفوز علي كريستال بالاس</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/libya.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">كرة القدم</p>
+                                            <p class="card-text font-weight-bolder">تحديد موعد انطلاق الدوري الليبي</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/eltrage.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">كرة القدم</p>
+                                            <p class="card-text font-weight-bolder">الترجي يتجة لاقامه مدربه كاردوزو</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/champions.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">دوري البطال اوروبا</p>
+                                            <p class="card-text font-weight-bolder">قمه منتظره بين الريال وبروسيا بوردموند</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/cress.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">دوري أبطال اوروبا</p>
+                                            <p class="card-text font-weight-bolder">موتا مدرب اليوفنتوس يشيد بامكانيات شتوتغارت</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/elRayan.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">دوري أبطال اسيا للنخبه</p>
+                                            <p class="card-text font-weight-bolder"> الاهلي يحقق الفوز علي مستضيفه الريان</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/negative.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">دوري أبطال اسيا للنخبه</p>
+                                            <p class="card-text font-weight-bolder">التعادل السلبي يحسم مواجة الشرطه وباختاكور</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class = "invisible" style="width: fit-content">0</div>
+                                </div>
+                                <div class = "fixed bg-white mt-5 left" data="left" style="left: 0px;padding: 116px 0;box-shadow: 5px 0 10px #ffffff;"><div class="btn btn-outline-purple btn-sm">&#8919</div></div>
+                            </div>
+                        </div>
+                        <div class = "matches mt-3 shadow bg-white rounded-bottom">
+                            <div class="card text-right border-top-0 border-right-0 border-left-0">
+                                <div class="card-header text-white mb-1" style="background-color: var(--color);">
+                                    دوري الامم الاوروبيه
+                                </div>
+                                <div class="card-body p-0">
+                                    <img src="img/eroopa.jfif" alt="" class = "mw-100">
+                                </div>
+                                <div class="card-footer bg-white p-1 p-sm-2 p-md-3">
+                                    <a href="#">
+                                        <p class = "text-purple mb-1">دوري الأمم الأوروبية</p>
+                                        <h4 class= "text-dark">تعادل بولندا وكرواتيا في مباراة مثيرة </h4>
+                                        <p class="text-dark">تعادل منتخب بولندا مع ضيفه منتخب كرواتيا 3-3 ضمن الجولة الرابعة من منافسات المجموعة الأولى (المستوى الأول) لبطولة دوري الأمم الأوروبية</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <ul class="list-group p-md-3 p-sm-2" data-def = "uropa">
+                                <li class="list-group-item border-0">
+                                    <a href="#" class="row justify-content-start rounded bg-white mt-2" style="box-shadow: 0 0 10px #00000041;">
+                                        <div class="text-title col-md-8 col-sm-6 col-8   text-right pt-2">
+                                            <p class = "text-purple mb-1">دوري الامم الاوروبيه</p>
+                                            <p class = "text-dark font-weight-bolder">البرتغال تكتفي بالتعادل امام اسكتلندا</p>
+                                        </div>
+                                        <img src="img/portogal.jfif" alt="" class = "col-md-4 col-sm-6 col-4 p-0 rounded-right">
+                                    </a>
+                                </li>
+                                <li class="list-group-item border-0">
+                                    <a href="#" class="row justify-content-start rounded bg-white" style="box-shadow: 0 0 10px #00000041;">
+                                        <div class="text-title col-md-8 col-sm-6 col-8   text-right pt-2">
+                                            <p class = "text-purple mb-1">دوري الامم الاوروبيه</p>
+                                            <p class = "text-dark font-weight-bolder">اسبانيا تبلغ ربع النهائي باقتدار</p>
+                                        </div>
+                                        <img src="img/spansh.jfif" alt="" class = "col-md-4 col-sm-6 col-4 p-0 rounded-right">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="bg-transparent text-center">
+                                <hr class = "" style="margin: 35px 25px -35px 25px ">
+                                <div class="p-3">
+                                    <div class = "btn btn-outline-purple clickMore" style="box-shadow: 0 0 0 10px #fff;">عرض المزيد</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="last_news mt-3 shadow bg-white rounded pl-4 position-relative">
+                            <h4 style="font-size: 16px" class="text-right p-3 pr-2">  الدوري الانجليزي الممتاز  <img src="img/prem.png" width="35" alt=""></h4>
+                            
+                            <div class="scroll-horizontial p-1">
+                                <div class = "fixed bg-white mt-5 right" data="right" style="right: 0; padding: 116px 0;box-shadow: -5px 0 10px #ffffff;"><div class="btn btn-outline-purple btn-sm">&#8918</div></div>
+                                <div class="card-component">
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/arsenal.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري  الانجليزي الممتاز </p>
+                                            <p class="card-text font-weight-bolder">آرسنال المنقوص عددياً يسقط في أرض بورنموث </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/vandic.png" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">  الدوري الانجليزي الممتاز </p>
+                                            <p class="card-text font-weight-bolder">فان دايك بدأ محادثات بشأن تجديد عقده مع ليفربول</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/aston.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0"> الدوري الانجليزي الممتاز </p>
+                                            <p class="card-text font-weight-bolder">أستون فيلا يحقق فوزاً ثميناً خارج الديار </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/man.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الانجليزي الممتاز </p>
+                                            <p class="card-text font-weight-bolder">مانشستر سيتي يحقق فوزاً في الوقت القاتل </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/manUnited.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الانجليزي الممتاز </p>
+                                            <p class="card-text font-weight-bolder">مانشستر يونايتد يعود إلى سكة الانتصارات </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/salah.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الانجليزي الممتاز</p>
+                                            <p class="card-text font-weight-bolder">قمّة تحبس الأنفاس تجمع ليفربول بضيفه تشلسي </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/cress.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الانجليزي الممتاز </p>
+                                            <p class="card-text font-weight-bolder">كريس وود يقود نوتينغهام للفوز على كريستال بالاس</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/liver.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الانجليزي الممتاز </p>
+                                            <p class="card-text font-weight-bolder">ليفربول يتخطى عقبة تشلسي ويستعيد الصدارة سريعاً</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class = "invisible" style="width: fit-content">0</div>
+                                </div>
+                                <div class = "fixed bg-white mt-5 left" data="left" style="left: 0px;padding: 116px 0;box-shadow: 5px 0 10px #ffffff;"><div class="btn btn-outline-purple btn-sm">&#8919</div></div>
+                            </div>
+                        </div>
+                        <div class="last_news mt-3 shadow bg-white rounded pl-4 position-relative">
+                            <h4 style="font-size: 16px" class="text-right p-3 pr-2">الدوري الاسباني  <img src="img/lalga.png" width="35" alt=""></h4>
+                            
+                            <div class="scroll-horizontial p-1">
+                                <div class = "fixed bg-white mt-5 right" data="right" style="right: 0; padding: 116px 0;box-shadow: -5px 0 10px #ffffff;"><div class="btn btn-outline-purple btn-sm">&#8918</div></div>
+                                <div class="card-component">
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/las.jpg" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري  الاسباني </ح>
+                                            <p class="card-text font-weight-bolder">لاس بالماس يحسم مواجهة القاع ويهزم فالنسيا </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/barcalona.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">  الدوري الاسباني </p>
+                                            <p class="card-text font-weight-bolder">برشلونة يضرب بقوة ويهزم إشبيلية بخماسية </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/atletco.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0"> الدوري الاسباني </p>
+                                            <p class="card-text font-weight-bolder">أتليتيكو يعود من بعيد ويهزم ضيفه ليغانيس بثلاثية</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/mayo.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الاسباني </p>
+                                            <p class="card-text font-weight-bolder">مايوركا يستعيد عافيته ويهزم رايو فاييكانو</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/real.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الاسباني </p>
+                                            <p class="card-text font-weight-bolder">ريال مدريد يحقق فوزاً صعباً أمام سلتا فيغو </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/pelpaw.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الاسباني </p>
+                                            <p class="card-text font-weight-bolder">أتليتيك بيلباو يكرم وفادة إسبانيول</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/palad.png" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الاسباني </p>
+                                            <p class="card-text font-weight-bolder">بلد الوليد يحقق فوزاً مثيراً أمام ألافيس </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/path.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الاسباني </p>
+                                            <p class="card-text font-weight-bolder">تصحيح المسار شعار مواجهة ألافيس وبلد الوليد </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class = "invisible" style="width: fit-content">0</div>
+                                </div>
+                                <div class = "fixed bg-white mt-5 left" data="left" style="left: 0px;padding: 116px 0;box-shadow: 5px 0 10px #ffffff;"><div class="btn btn-outline-purple btn-sm">&#8919</div></div>
+                            </div>
+                        </div>
+                        <div class="last_news mt-3 shadow bg-white rounded pl-4 position-relative">
+                            <h4 style="font-size: 16px" class="text-right p-3 pr-2">الدوري الفرنسي  <img src="img/french.png" width="35" alt=""></h4>
+                            
+                            <div class="scroll-horizontial p-1">
+                                <div class = "fixed bg-white mt-5 right" data="right" style="right: 0; padding: 116px 0;box-shadow: -5px 0 10px #ffffff;"><div class="btn btn-outline-purple btn-sm">&#8918</div></div>
+                                <div class="card-component">
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/marcelya.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الفرنسي </ح>
+                                            <p class="card-text font-weight-bolder">مارسيليا يكتسح شباك مونبلييه بخماسية نظيفة </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/lyon.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">  الدوري الفرنسي </p>
+                                            <p class="card-text font-weight-bolder">ليون يدك شباك مستضيفه لوهافر برباعية نظيفة </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/parice.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0"> الدوري الفرنسي </p>
+                                            <p class="card-text font-weight-bolder">باريس سان جيرمان يهزم ستراسبورغ ويستعيد الصدارة </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/monako.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الفرنسي </p>
+                                            <p class="card-text font-weight-bolder">موناكو ينشد النقاط الثلاث من بوابة ليل </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/prict.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الفرنسي </p>
+                                            <p class="card-text font-weight-bolder">بريست يُفرّط بالفوز ويتعادل مع رين</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/colo.jpg" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الفرنسي </p>
+                                            <p class="card-text font-weight-bolder">الإصابة تحرم باريس سان جيرمان من خدمات كولو مواني</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/parice_1.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الفرنسي </p>
+                                            <p class="card-text font-weight-bolder">باريس سان جيرمان ينشد تصحيح المسار أمام ستراسبورغ  </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/monako_1.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الفرنسي </p>
+                                            <p class="card-text font-weight-bolder">التعادل يحسم مواجهة القمّة بين موناكو وليل </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class = "invisible" style="width: fit-content">0</div>
+                                </div>
+                                <div class = "fixed bg-white mt-5 left" data="left" style="left: 0px;padding: 116px 0;box-shadow: 5px 0 10px #ffffff;"><div class="btn btn-outline-purple btn-sm">&#8919</div></div>
+                            </div>
+                        </div>
+                        <div class="last_news mt-3 shadow bg-white rounded pl-4 position-relative">
+                            <h4 style="font-size: 16px" class="text-right p-3 pr-2">الدوري الالماني  <img src="img/german.png" width="35" alt=""></h4>
+                            
+                            <div class="scroll-horizontial p-1">
+                                <div class = "fixed bg-white mt-5 right" data="right" style="right: 0; padding: 116px 0;box-shadow: -5px 0 10px #ffffff;"><div class="btn btn-outline-purple btn-sm">&#8918</div></div>
+                                <div class="card-component">
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/german_1.png" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الالماني </p>
+                                            <p class="card-text font-weight-bolder">أونيون برلين يتغلب على هولشتاين كيل</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/german_2.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">  الدوري الالماني </p>
+                                            <p class="card-text font-weight-bolder">بايرن ميونيخ يتجاوز عقبة ضيفه شتوتغارت برباعية </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/german_3.png" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0"> الدوري الالماني </p>
+                                            <p class="card-text font-weight-bolder">باير ليفركوزن يقتنص فوزاً ثميناً من فرانكفورت </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/german_4.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الالماني </p>
+                                            <p class="card-text font-weight-bolder">مواجهة مرتقبة بين ليفركوزن وفرانكفورت</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/german_5.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الالماني </p>
+                                            <p class="card-text font-weight-bolder">بوروسيا دورتموند ينتزع فوزاً صعباً من سانت باولي  </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/german_6.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الالماني </p>
+                                            <p class="card-text font-weight-bolder">دورتموند يستضيف سانت باولي وعينه على النقاط الثلاث</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/german_7.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الالماني </p>
+                                            <p class="card-text font-weight-bolder">المصري عمر مرموش لاعب الشهر في البوندسليغا</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/german_8.jpg" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">الدوري الالماني </p>
+                                            <p class="card-text font-weight-bolder">ليفركوزن يؤكد إصابة نجمه فيرتس</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class = "invisible" style="width: fit-content">0</div>
+                                </div>
+                                <div class = "fixed bg-white mt-5 left" data="left" style="left: 0px;padding: 116px 0;box-shadow: 5px 0 10px #ffffff;"><div class="btn btn-outline-purple btn-sm">&#8919</div></div>
+                            </div>
+                        </div>
+                        <div class="last_news mt-3 shadow bg-white rounded pl-4 position-relative">
+                            <h4 style="font-size: 16px" class="text-right p-3 pr-2">دوري أبطال اوروبا  <img src="img/uropa_cup_1.png" width="35" alt=""></h4>
+                            
+                            <div class="scroll-horizontial mb-1">
+                                <div class = "fixed bg-white mt-5 right" data="right" style="right: 0; padding: 116px 0;box-shadow: -5px 0 10px #ffffff;"><div class="btn btn-outline-purple btn-sm">&#8918</div></div>
+                                <div class="card-component" style="margin-bottom: 12px !important;">
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/ero_1.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right">
+                                            <p class="card-title text-purple mb-0" >دوري أبطال اوروبا </p>
+                                            <p class="card-text font-weight-bolder">قمة منتظرة بين ريال مدريد وضيفه بوروسيا دورتموند</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/ero_2.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">  دوري أبطال اوروبا </p>
+                                            <p class="card-text font-weight-bolder">موتا مدرب يوفنتوس يشيد بإمكانيات شتوتغارت</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/ero_3.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0"> دوري أبطال اوروبا </p>
+                                            <p class="card-text font-weight-bolder">ليفربول يتخطى عقبة تشلسي ويستعيد الصدارة سريعاً</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/ero_4.jpg" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">دوري أبطال اوروبا </p>
+                                            <p class="card-text font-weight-bolder">مدرب ليفربول: صلاح سيسجّل الأهداف دائماً</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/ero_5.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">دوري أبطال اوروبا </p>
+                                            <p class="card-text font-weight-bolder">ماذا قال محمد صلاح بعد فوز ليفربول على بولونيا؟ </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/ero_6.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">دوري أبطال اوروبا </p>
+                                            <p class="card-text font-weight-bolder">أتالانتا يحقق فوزاً كبيراً على شاختار</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/ero_7.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">دوري أبطال اوروبا </p>
+                                            <p class="card-text font-weight-bolder">موقعة مرتقبة بين بنفيكا وأتليتيكو مدريد </p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 shadow-sm bg-white">
+                                        <img src="img/ero_8.jfif" class="card-img-top mw-100" style="height: 150px;" alt="">
+                                        <div class="card-body text-right p-2">
+                                            <p class="card-title text-purple mb-0">دوري أبطال اوروبا </p>
+                                            <p class="card-text font-weight-bolder">ليفربول لتحقيق انتصاره الثاني في البطولة</p>
+                                            <a href="#" class = "stretched-link" class=""></a>
+                                        </div>
+                                    </div>
+                                    <div class = "invisible" style="width: fit-content">0</div>
+                                </div>
+                                <div class = "fixed bg-white mt-5 left" data="left" style="left: 0px;padding: 116px 0;box-shadow: 5px 0 10px #ffffff;"><div class="btn btn-outline-purple btn-sm">&#8919</div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mt-md-2 mt-sm-2 mt-lg-0 pt-2 p-2">
+                        <div class="competitions shadow">
+                            <div class="competition">
+                                <div class="card-header text-white mb-1 text-right pr-3" style="background-image: url('img/header.png');background-repeat: no-repeat; background-position: top right;background-size: cover;">
+                                    دوري ابطال اوروبا<img src = "img/light_champ.png" class="ml-2" width="35">
+                                    <ul class="nav nav-pills border-0 mb-n1 nav-justified mt-2">
+                                        <li class="nav-item">
+                                            <a class="nav-link active bg-transparent p-0 pl-2 pr-2 small" style="color: #bdbdbd !important;" data-toggle="pill" href="#home">المباريات</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link bg-transparent p-0 pl-2 pr-2 small" style="color: #bdbdbd !important;" data-toggle="pill" href="#menu1">الترتيب</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class = "text-purple small text-right p-2 mb-0 pr-3">دوري أبطال أوروبا</p>
+                                
+                                <div class="tab-content p-0">
+                                    <div class="tab-pane container active p-0" id="home">
+                                        <div class="cards p-2 pr-3 pl-3 pb-3">
+                                            <div class="card p-1 pt-4 border-0 shadow-sm">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/monako_logo.png" alt="" width="35">
+                                                        <p>Monako</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"><bdi>أكتوبر</bdi> 22 </p>
+                                                        <p><small>19:45</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/crvena_logo.png" alt="" width="35">
+                                                        <p>Crvena</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/melan.png" alt="" width="35">
+                                                        <p>ميلان</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"> <bdi>أكتوبر</bdi> 22</p>
+                                                        <p><small>19:45</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/prog.png" alt="" width="35">
+                                                        <p>نادي بروج</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/ar.png" alt="" width="35">
+                                                        <p>أرسنال</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"> <bdi>أكتوبر</bdi> 22</p>
+                                                        <p><small>22:00</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/shek.png" alt="" width="35">
+                                                        <p>شختار دونستك</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/ast.png" alt="" width="35">
+                                                        <p>استون فيلا</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"> <bdi>أكتوبر</bdi> 22</p>
+                                                        <p><small>19:45</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/pol.png" alt="" width="35">
+                                                        <p>بولونيا</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane container fade pt-3 pb-2" id="menu1" dir="rtl">
+                                        <table class="table text-center small table-responsive shadow" dir="rtl">
+                                            <tr>
+                                                <td class = "border-0 text-right">النادي</td>
+                                                <td class = "border-0 text-right">لعب</td>
+                                                <td class = "border-0 text-right">ف</td>
+                                                <td class = "border-0 text-right">ت</td>
+                                                <td class = "border-0 text-right">خ</td>
+                                                <td class = "border-0 text-right">له</td>
+                                                <td class = "border-0 text-right">الفرق</td>
+                                                <td class = "border-0 text-right">النقاط</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-right"><img src="img/ast.png" class="ml-2" width="25" alt="">أستون فيلا</td>
+                                                <td>3</td>
+                                                <td>3</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>6</td>
+                                                <td>0</td>
+                                                <td>9</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-right"><img src="img/monako_logo.png" class="ml-2" width="25" alt="">موناكو</td>
+                                                <td>3</td>
+                                                <td>3</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>6</td>
+                                                <td>0</td>
+                                                <td>9</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-right"><img src="img/ar.png" class="ml-2" width="25" alt="">أرسنال</td>
+                                                <td>3</td>
+                                                <td>3</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>6</td>
+                                                <td>0</td>
+                                                <td>9</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-right"><img src="img/bvb.png" class="ml-2" width="25" alt="">بروسيا</td>
+                                                <td>3</td>
+                                                <td>3</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>6</td>
+                                                <td>0</td>
+                                                <td>9</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-right"><img src="img/crvena_logo.png" class="ml-2" width="25" alt="">موناكو</td>
+                                                <td>3</td>
+                                                <td>3</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>6</td>
+                                                <td>0</td>
+                                                <td>9</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-right"><img src="img/pol.png" class="ml-2" width="25" alt="">موناكو</td>
+                                                <td>3</td>
+                                                <td>3</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>6</td>
+                                                <td>0</td>
+                                                <td>9</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-right"><img src="img/shotgar.png" class="ml-2" width="25" alt="">موناكو</td>
+                                                <td>3</td>
+                                                <td>3</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>6</td>
+                                                <td>0</td>
+                                                <td>9</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-right"><img src="img/melan.png" class="ml-2" width="25" alt="">موناكو</td>
+                                                <td>3</td>
+                                                <td>3</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>6</td>
+                                                <td>0</td>
+                                                <td>9</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="competitions shadow mt-3">
+                            <div class="competition">
+                                <div class="card-header text-white mb-1 text-right pr-2" style="background-image: url('img/bg_prim.png');background-repeat: no-repeat; background-position: top right;background-size: cover;">
+                                    الدوري الانجليزي الممتاز<img src = "img/pri_logo.png" class="ml-1"  width="35">
+                                    <ul class="nav nav-pills border-0 mb-n1 nav-justified mt-2">
+                                        <li class="nav-item">
+                                            <a class="nav-link active bg-transparent p-0 pl-2 pr-2 small" style="color: #bdbdbd !important;" data-toggle="pill" href="#home1">المباريات</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link bg-transparent p-0 pl-2 pr-2 small" style="color: #bdbdbd !important;" data-toggle="pill" href="#menu2">الترتيب</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <p class = "text-purple small text-right p-2 mb-0 pr-3">الدوري الانجليزي الممتاز</p>
+                                <div class="tab-content p-0 pl-1">
+                                    <div class="tab-pane container active p-0" id="home1">
+                                        <div class="cards p-2 pr-3 pl-3 pb-3">
+                                            <div class="card p-1 pt-4 border-0 shadow-sm">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/toten.png" alt="" width="35">
+                                                        <p>توتنغهام فورست</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0 text-danger">انتهت </p>
+                                                        <p><small>1 : 0</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/crestal.png" alt="" width="35">
+                                                        <p>كرستال بالاس</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/lister.png" alt="" width="35">
+                                                        <p>ليسترسيتي</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"> <bdi>أكتوبر</bdi> 25</p>
+                                                        <p><small>22:45</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/toten_ham.png" alt="" width="35">
+                                                        <p>توتنهام</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/ast.png" alt="" width="35">
+                                                        <p>أستون فيلا</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"> <bdi>أكتوبر</bdi> 26</p>
+                                                        <p><small>17:00</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/pro.png" alt="" width="35">
+                                                        <p>بورنموث</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/pray.png" alt="" width="35">
+                                                        <p>برايتون</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"><bdi>أكتوبر</bdi> 26</p>
+                                                        <p><small>17:45</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/welver.png" alt="" width="35">
+                                                        <p>ولفرهامبتون</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane container fade pt-3 pb-3" id="menu2">
+                                        <div class="shadow sco" dir="rtl" style="max-height: 620px;overflow-y: auto;">
+                                            <table class="table text-center small table-responsive" dir="rtl">
+                                                <tr>
+                                                    <td class = "border-0 text-right">النادي</td>
+                                                    <td class = "border-0 text-right">لعب</td>
+                                                    <td class = "border-0 text-right">ف</td>
+                                                    <td class = "border-0 text-right">ت</td>
+                                                    <td class = "border-0 text-right">خ</td>
+                                                    <td class = "border-0 text-right">له</td>
+                                                    <td class = "border-0 text-right">الفرق</td>
+                                                    <td class = "border-0 text-right">النقاط</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/liverpool.png" class="ml-2" width="25" alt="">ليفربول</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/man_city.png" class="ml-2" width="25" alt="">مان سيتي</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/ar.png" class="ml-2" width="25" alt="">أرسنال</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/ast.png" class="ml-2" width="25" alt="">أستون فيلا</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/pray.png" class="ml-2" width="25" alt="">برايتون</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/chelse.png" class="ml-2" width="25" alt="">اتشلسي</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/toten_ham.png" class="ml-2" width="25" alt="">توتنهام</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/toten.png" class="ml-2" width="25" alt="">توتنغهام فورست</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/new_casel.png" class="ml-2" width="25" alt="">نيوكاسل يونايتد</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/folham.png" class="ml-2" width="25" alt="">فولهام</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/pro.png" class="ml-2" width="25" alt=""> بورنموث</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/united.png" class="ml-2" width="25" alt="">مان يونايتد</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/pretford.png" class="ml-2" width="25" alt="">برينتفورد</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/lister.png" class="ml-2" width="25" alt="">ليسترسيتي</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/westHam.png" class="ml-2" width="25" alt="">وست هام</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/everton.png" class="ml-2" width="25" alt="">ايفرتون</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/crestal.png" class="ml-2" width="25" alt="">كريستال بالاس</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="competitions shadow mt-3">
+                            <div class="competition">
+                                <div class="card-header text-white mb-1 text-right pr-3" style="background-image: url('img/bg-laliga.png');background-repeat: no-repeat; background-position: top right;background-size: cover;">
+                                    الدوري  الاسباني<img src = "img/laliga_logo.png" class = "ml-2" width="35">
+                                    <ul class="nav nav-pills border-0 mb-n1 nav-justified mt-2">
+                                        <li class="nav-item">
+                                            <a class="nav-link active bg-transparent p-0 pl-2 pr-2 small" style="color: #bdbdbd !important;" data-toggle="pill" href="#home2">المباريات</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link bg-transparent p-0 pl-2 pr-2 small" style="color: #bdbdbd !important;" data-toggle="pill" href="#menu3">الترتيب</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class = "text-purple small text-right p-2 mb-0 pr-3">الدوري الاسباني</p>
+                                <div class="tab-content p-0">
+                                    <div class="tab-pane container active p-0" id="home2">
+                                        <div class="cards p-2 pr-3 pl-3 pb-3">
+                                            <div class="card p-1 pt-4 border-0 shadow-sm">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/valinca.png" alt="" width="35">
+                                                        <p>فالنسيا</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0 text-danger">انتهت </p>
+                                                        <p><small>2 : 3</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/balmas.png" alt="" width="35">
+                                                        <p>لاس  بالماس</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/spanuol.png" alt="" width="35">
+                                                        <p>أسبانيول</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"> <bdi>أكتوبر</bdi> 25</p>
+                                                        <p><small>22:00</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/shpilia.png" alt="" width="35">
+                                                        <p>اشبيليه</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/bld.png" alt="" width="35">
+                                                        <p>بلد الوليد</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"> <bdi>أكتوبر</bdi> 26</p>
+                                                        <p><small>15:00</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/vya.png" alt="" width="35">
+                                                        <p>فياريال</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/rayo.png" alt="" width="35">
+                                                        <p>رايو فاييكانو</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"><bdi>أكتوبر</bdi> 26</p>
+                                                        <p><small>17:45</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/alavist.png" alt="" width="35">
+                                                        <p>ألافيس</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane container fade pt-3 pb-3" id="menu3">
+                                        <div class="shadow sco" dir="rtl" style="max-height: 620px;overflow-y: auto;">
+                                            <table class="table text-center small table-responsive" dir="rtl">
+                                                <tr>
+                                                    <td class = "border-0 text-right">النادي</td>
+                                                    <td class = "border-0 text-right">لعب</td>
+                                                    <td class = "border-0 text-right">ف</td>
+                                                    <td class = "border-0 text-right">ت</td>
+                                                    <td class = "border-0 text-right">خ</td>
+                                                    <td class = "border-0 text-right">له</td>
+                                                    <td class = "border-0 text-right">الفرق</td>
+                                                    <td class = "border-0 text-right">النقاط</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/barecelona.png" class="ml-2" width="25" alt="">برشلونه</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/reyal.png" class="ml-2" width="25" alt="">ريال مدريد</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/atletcoo.png" class="ml-2" width="25" alt="">اتلتكو مدريد</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/vya.png" class="ml-2" width="25" alt="">فياريال</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/atletic_pel.png" class="ml-2" width="25" alt="">اتلتك بيلباو</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/mayorka.png" class="ml-2" width="25" alt="">مايوركا</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/ryal_pe.png" class="ml-2" width="25" alt="">ريال بتيس</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/reyal_sos.png" class="ml-2" width="25" alt="">ريال سوسيداد</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/shpilia.png" class="ml-2" width="25" alt="">اشبيليه</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/alavist_.png" class="ml-2" width="25" alt="">ألافيس</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/spanuol.png" class="ml-2" width="25" alt="">اسبانيول</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/bld.png" class="ml-2" width="25" alt="">بلد الواليد</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/rayo.png" class="ml-2" width="25" alt="">رايو فاييكانو</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/balmas.png" class="ml-2" width="25" alt="">لاس بالماس</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="competitions shadow mt-3">
+                            <div class="competition">
+                                <div class="card-header text-white mb-1 text-right pr-3" style="background-image: url('img/bg-frence.png');background-repeat: no-repeat; background-position: top right;background-size: cover;">
+                                    الدوري  الفرنسي<img src = "img/france_logo.png" class = "ml-2" width="35">
+                                    <ul class="nav nav-pills border-0 mb-n1 nav-justified mt-2">
+                                        <li class="nav-item">
+                                            <a class="nav-link active bg-transparent p-0 pl-2 pr-2 small" style="color: #bdbdbd !important;" data-toggle="pill" href="#home3">المباريات</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link bg-transparent p-0 pl-2 pr-2 small" style="color: #bdbdbd !important;" data-toggle="pill" href="#menu4">الترتيب</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class = "text-purple small text-right p-2 mb-0 pr-3">الدوري الفرنسي</p>
+                                <div class="tab-content p-0">
+                                    <div class="tab-pane container active p-0" id="home3">
+                                        <div class="cards p-2 pr-3 pl-3 pb-3">
+                                            <div class="card p-1 pt-4 border-0 shadow-sm">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/ren.png" alt="" width="35">
+                                                        <p>رين</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"><bdi>أكتوبر</bdi> 22</p>
+                                                        <p><small>21:45</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/lohaver.png" alt="" width="35">
+                                                        <p>لو هافر</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/anj.png" alt="" width="35">
+                                                        <p>أنجيه</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"> <bdi>أكتوبر</bdi> 26</p>
+                                                        <p><small>18:00</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/cant.png" alt="" width="35">
+                                                        <p>سانت ايتيان</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/ranc.png" alt="" width="35">
+                                                        <p>رانس</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0">26 <bdi>أكتوبر</bdi></p>
+                                                        <p><small>26:00</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/brest.png" alt="" width="35">
+                                                        <p>بريست</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/lence.png" alt="" width="35">
+                                                        <p>لنس </p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0">26 <bdi>أكتوبر</bdi></p>
+                                                        <p><small>22:45</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/lel.png" alt="" width="35">
+                                                        <p>ليل</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane container fade pt-3 pb-3" id="menu4">
+                                        <div class="shadow sco" dir="rtl" style="max-height: 620px;overflow-y: auto;">
+                                            <table class="table text-center small table-responsive" dir="rtl">
+                                                <tr>
+                                                    <td class = "border-0 text-right">النادي</td>
+                                                    <td class = "border-0 text-right">لعب</td>
+                                                    <td class = "border-0 text-right">ف</td>
+                                                    <td class = "border-0 text-right">ت</td>
+                                                    <td class = "border-0 text-right">خ</td>
+                                                    <td class = "border-0 text-right">له</td>
+                                                    <td class = "border-0 text-right">الفرق</td>
+                                                    <td class = "border-0 text-right">النقاط</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/parice_ger.png" class="ml-2" width="25" alt="">بي اس جي</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/monako_logo.png" class="ml-2" width="25" alt="">موناكو</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/marce.png" class="ml-2" width="25" alt="">مارسيليا</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/lel.png" class="ml-2" width="25" alt="">ليل </td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/lence.png" class="ml-2" width="25" alt="">لنس</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/ranc.png" class="ml-2" width="25" alt=""> ريمس</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/nant.png" class="ml-2" width="25" alt="">نانت</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/olimpyacos.png" class="ml-2" width="25" alt="">أولمبيك ليون</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/nice.png" class="ml-2" width="25" alt="">نيس</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/ryen.png" class="ml-2" width="25" alt="">رين</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/strace.png" class="ml-2" width="25" alt="">استراسبورغ</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/motel.png" class="ml-2" width="25" alt=""> برينتفورد</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/angya.png" class="ml-2" width="25" alt="">أنجيه</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/toloz.png" class="ml-2" width="25" alt="">تولوز</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/cant.png" class="ml-2" width="25" alt="">سانت ايتيان</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="competitions shadow mt-3">
+                            <div class="competition">
+                                <div class="card-header text-white mb-1 text-right pr-3" style="background-image: url('img/bg_bondse.png');background-repeat: no-repeat; background-position: top right;background-size: cover;">
+                                    الدوري  الالماني<img src = "img/german.png" class = "ml-2" width="35">
+                                    <ul class="nav nav-pills border-0 mb-n1 nav-justified mt-2">
+                                        <li class="nav-item">
+                                            <a class="nav-link active bg-transparent p-0 pl-2 pr-2 small" style="color: #bdbdbd !important;" data-toggle="pill" href="#home4">المباريات</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link bg-transparent p-0 pl-2 pr-2 small" style="color: #bdbdbd !important;" data-toggle="pill" href="#menu5">الترتيب</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class = "text-purple small text-right p-2 mb-0 pr-3">الدوري الالماني</p>
+                                <div class="tab-content p-0">
+                                    <div class="tab-pane container active p-0" id="home4">
+                                        <div class="cards p-2 pr-3 pl-3 pb-3">
+                                            <div class="card p-1 pt-4 border-0 shadow-sm">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/mayenze.png" alt="" width="35">
+                                                        <p>ماينز</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"><bdi>أكتوبر</bdi> 25</p>
+                                                        <p><small>21:45</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/procya_2.png" alt="" width="35">
+                                                        <p>بروسيا مونشنغلادباخ</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/Ogs.png" alt="" width="35">
+                                                        <p>أوغسبورغ</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0"> <bdi>أكتوبر</bdi> 26</p>
+                                                        <p><small>16:00</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/bvb.png" alt="" width="35">
+                                                        <p> بروسيا دورتموند</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/cant_pa.png" alt="" width="35">
+                                                        <p>سانت باولي</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0">26 <bdi>أكتوبر</bdi></p>
+                                                        <p><small>16:30</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/folsporg.png" alt="" width="35">
+                                                        <p>فولسبورغ</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1 pt-4 border-0 shadow-sm mt-3">
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <img src="img/shotgar.png" alt="" width="35">
+                                                        <p>شتوتغارت</p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <p class="mt-2 mb-0">26 <bdi>أكتوبر</bdi></p>
+                                                        <p><small>16:45</small></p>
+                                                    </div>
+                                                    <div class="col text-center">
+                                                        <img src="img/holst.png" alt="" width="35">
+                                                        <p>هولستين</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane container fade pt-3 pb-3" id="menu5">
+                                        <div class="shadow sco" dir="rtl" style="max-height: 620px;overflow-y: auto;">
+                                            <table class="table text-center small table-responsive" dir="rtl">
+                                                <tr>
+                                                    <td class = "border-0 text-right">النادي</td>
+                                                    <td class = "border-0 text-right">لعب</td>
+                                                    <td class = "border-0 text-right">ف</td>
+                                                    <td class = "border-0 text-right">ت</td>
+                                                    <td class = "border-0 text-right">خ</td>
+                                                    <td class = "border-0 text-right">له</td>
+                                                    <td class = "border-0 text-right">الفرق</td>
+                                                    <td class = "border-0 text-right">النقاط</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/bayern.png" class="ml-2" width="25" alt="">بايرن ميونيخ</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/arby.png" class="ml-2" width="25" alt="">اربي ليبزيج</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/livercozen.png" class="ml-2" width="25" alt="">فرايبورغ</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/Liv.png" class="ml-2" width="25" alt="">ليفركوزن</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/yoten.png" class="ml-2" width="25" alt="">يونيون برلين</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/mayenze.png" class="ml-2" width="25" alt="">ماينتس</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/procya_2.png" class="ml-2" width="25" alt="">بوروسيا مونشنغلادباخ</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/verder.png" class="ml-2" width="25" alt="">فيردر بريمن</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/folsporg.png" class="ml-2" width="25" alt="">نادي فولفسبورغ</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/He.png" class="ml-2" width="25" alt="">نادي هايدينهايم</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/Ogs.png" class="ml-2" width="25" alt="">أوغسبورغ</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/shotgar.png" class="ml-2" width="25" alt="">شتوتغارت</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/bvb.png" class="ml-2" width="25" alt="">بوروسيا دورتموند</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/sant_baw.png" class="ml-2" width="25" alt="">سانت باولي</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><img src="img/pokam.png" class="ml-2" width="25" alt="">بوخام</td>
+                                                    <td>3</td>
+                                                    <td>3</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>6</td>
+                                                    <td>0</td>
+                                                    <td>9</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="competitions shadow mt-3 bg-white rounded">
+                            <p class = "font-weight-bolder small text-right  p-2 mb-2 pr-3 pt-3">أحدث مقاطع الفيديو</p>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2 " dir="rtl">
+                                    <img src="img/vedio_1.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 80px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري الانجليزي الممتاز</p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">أرسنال يسعي لتجنب الخساره أمام ليفربول</p>
+                                        <p class = "small text-secondary mb-0">13:37</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media p-0 border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_2.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 80px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري التركي الممتاز</p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">لقاء خاص مع رشيد غزال</p>
+                                        <p class = "small text-secondary mb-0">13:36</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media p-0 border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_3.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 80px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري الايطالي الممتاز</p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">انراغي يدرك مدي أهميه مواجهت يوفينتوس</p>
+                                        <p class = "small text-secondary mb-0">12:30</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_4.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 80px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري الفرنسي </p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">قمه كبيره مرتقبه بين مارسيليا وباريس سان جيرمان</p>
+                                        <p class = "small text-secondary mb-0">12:51</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_5.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 80px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري الاسباني </p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">لامين جمال أصغر لاعب يسجل في الكلاسيكو</p>
+                                        <p class = "small text-secondary mb-0">00:11</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_6.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 80px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري الاسباني </p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">برشلونه يحسم الكلاسيكو برباعيه في شباك ريال مدريد</p>
+                                        <p class = "small text-secondary mb-0">12:51</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_7.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 80px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">البادل</p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">ستوباتشوك وييانغواس يتجوجان بلقب بطوله نيو جيزة</p>
+                                        <p class = "small text-secondary mb-0">Oct26</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_8.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 80px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري الالماني </p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">باير ليفركوزن يتعثر في بريمن</p>
+                                        <p class = "small text-secondary mb-0">Oct26</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_9.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height:80px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">كأس السوبر الافريقي</p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">الاتحاد الافريقي يفرض عقوبه علي الزمالك</p>
+                                        <p class = "small text-secondary mb-0">Oct26</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-0">
+                                <div class="media pb-2" dir="rtl">
+                                    <img src="img/vedio_10.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 80px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">دوري نجوم قطر</p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">الريان يكتفي بالتعادل مع الاهلي</p>
+                                        <p class = "small text-secondary mb-0">Oct26</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+    
+    <footer class="bg-purple pt-4 pb-4 mt-2">
+        <div class="container">
+            <div class="row" dir="rtl">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1 text-right this d-flex justify-content-between">
+                    <ul class="list-group bg-transparent text-white list-group-flush p-1" dir="rtl">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3">
+                            <h4>الدعم</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">اتصل بنا</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">beIN CONNECT</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">beIN MEDIA GROUP</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">الاسئله الاكثر شيوعا</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN</bdi> نبذه عن مجموعه </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>   ترددات  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> دليل التلفاز </a>
+                        </li>
+                    </ul>
+                    <ul class="list-group bg-transparent text-white list-group-flush mr-2 mt-1 p-0">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3 invisible">
+                            <h4>الدعم</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">احصل علي <bdi>beIN</bdi></a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">اشترك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">بلدي <bdi>beIN</bdi> </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">مركز الاتصال</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>  امريكا  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>   استراليا  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> معلومات عن هذا الموقع </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 this pr-sm-1 pr-lg-5 last pt-1">
+                    <ul class="list-group bg-transparent text-white list-group-flush p-1 text-right" dir="rtl">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3">
+                            <h4>تابعونا</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">فيسبوك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">x</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">يوتيوب</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">انستجرام</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">تيك توك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> واتساب </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> نريدز</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class = "links pt-4 w-md-100">
+                        <div class = "link_1">
+                            <a href="#">
+                                <img src="img/brand.webp" alt="" width="190" style="max-width: 100%;">
+                            </a>
+                        </div>
+                        <p class="mt-5 font-weight-bolder text-white">قم بتنزيل تطبيقاتنا</p>
+                        <div class="link_1">
+                            <a href="#">
+                                <img src="img/link_1.png" alt="" class="ml-2 d-inline-block" width="120">
+                            </a>
+                            <a href="#">
+                                <img src="img/link_2.png" alt=""  width="120">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+    <script src = "bootStrap/popper.min.js"></script>
+    <script src = "bootStrap/jquery-3.7.1.min.js"></script>
+    <script src = "bootStrap/bootstrap.js"></script>
+    <script src = "css/index.js"></script>
+</html>

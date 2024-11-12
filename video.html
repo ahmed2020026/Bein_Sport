@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="bootStrap/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="bg-light live">
+    <header class = "shadow-sm fixed-top bg-light">
+        <div class="container pr-0 pl-0">
+            <nav class="navbar navbar-expand-lg navbar-light flex-row-reverse pr-0">
+                <a class="navbar-brand text-right" href="index.html"><img src="img/logo.webp" class = "mw-100" alt=""></a>
+                <div class="btns order-lg-3">
+                    <button class="navbar-toggler order-md-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class = "btn btn-default text-secandary" id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                    <ul class="navbar-nav flex-md-column-reverse flex-lg-row-reverse text-right pr-4">
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="index.html" opin = "true">الرئيسيه</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="file.html" opin = "true">نتائج مباشره</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="video.html" opin = "true">الفيديو</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="live_1.html" opin = "true">مباشر</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="live.html" opin = "true">جدول البث</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <article class = "pt-5 mt-5 different">
+        <div class="container" dir="rtl">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-8 p-sm-0 p-md-2 mb-3">
+                    <div class="shadow rounded border-white bg-white position-relative cards">
+                        <h6 class="text-right pr-3 pt-3 mb-0">كرة القدم</h6>
+                        <div class="btn btn-outline-purple btn-sm x_right position-absolute" style="top: 50%;transform: translateY(-50%);right: 0;z-index: 5;"><i class="fa-solid fa-less-than"></i></div>
+                        <div class="btn btn-outline-purple btn-sm x_left position-absolute" style="top: 50%;transform: translateY(-50%);left: 0;z-index: 5;"><i class="fa-solid fa-greater-than"></i></div>
+                        <div class="father pt-3 pb-3 pl-5 pr-2 position-relative" dir="ltr" style="overflow: auto;">
+                            <div class="child" style="gap: 15px;display: grid;grid-template-columns: repeat(7,250px);">
+                                <div class="card border-0 shadow-sm" style="width: 250px; min-width: 250px;">
+                                    <img src="img/lega/latsyo.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الاوروبي</p>
+                                            <p class = "small font-weight-bold text-right">لاتسيو يهزم بورتو بهدف قاتل من بيدرو</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/chelse_coloth.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px;">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الاوروبي</p>
+                                            <p class = "small font-weight-bold text-right">تشلسي يواصل نتائجه الملفته</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/man_united.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الاوروبي</p>
+                                            <p class = "small font-weight-bold text-right">مانشستر يونايتد يتجاوز باوك بثنائيه نظيفه</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/www.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الاوروبي</p>
+                                            <p class = "small font-weight-bold text-right">التعادل يخيم علي مواجهة سان جيلواز وروما</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/olymbyakos.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الاوروبي</p>
+                                            <p class = "small font-weight-bold text-right">أولمبياكوس يتعادل مع رينجر</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/nag.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الاوروبي</p>
+                                            <p class = "small font-weight-bold text-right">ناغلسمان يختار تشكيله ألمانيا</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div style="width: fit-content;padding: 0 10px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow rounded border-white bg-white mt-3 position-relative cards">
+                        <h6 class="text-right pr-3 pt-3 mb-1small"><img src="img/dark_champ.png" width="35" class="ml-3" alt="">دوري ابطال اوروبا</h6>
+                        <div class="btn btn-outline-purple btn-sm x_right position-absolute" style="top: 50%;transform: translateY(-50%);right: 0;z-index: 5;"><i class="fa-solid fa-less-than"></i></div>
+                        <div class="btn btn-outline-purple btn-sm x_left position-absolute" style="top: 50%;transform: translateY(-50%);left: 0;z-index: 5;"><i class="fa-solid fa-greater-than"></i></div>
+                        <div class="father pt-3 pb-3 pl-5 pr-2 position-relative" dir="ltr" style="overflow: auto;">
+                            <div class="child" style="gap: 15px;display: grid;grid-template-columns: repeat(7,250px);">
+                                <div class="card border-0 shadow-sm" style="width: 250px; min-width: 250px;">
+                                    <img src="img/byern.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">دوري ابطال اوروبا</p>
+                                            <p class = "small font-weight-bold text-right">بايرن ميونخ ينجو من فخ بنفيكا</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/barchalona_team.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px;">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">دوري ابطال اوروبا</p>
+                                            <p class = "small font-weight-bold text-right">برشلونه يحقق فوزا عريضا علي النجم الاحمر</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/atletco.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">دوري ابطال اوروبا</p>
+                                            <p class = "small font-weight-bold text-right">أتليتيكو مدريد يحسم القمه امام باريس سان جرمان</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/inter_melan.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">دوري ابطال اوروبا</p>
+                                            <p class = "small font-weight-bold text-right">انتر يقتنص فوزا ثمينا من ارسنال</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/aston_vela.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">دوري ابطال اوروبا</p>
+                                            <p class = "small font-weight-bold text-right">أستون فيلا يتلقي الخساره الاولي</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/vedio_5.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">دوري ابطال اوروبا</p>
+                                            <p class = "small font-weight-bold text-right">برشلونه ضيفا ثقيلا علي النجم الاحمر</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div style="width: fit-content;padding: 0 10px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow rounded border-white bg-white mt-3 position-relative cards">
+                        <h6 class="text-right pr-3 pt-3 mb-0"><img src="img/prem.png" width="35" alt="">الدوري الانجليزي الممتاز</h6>
+                        <div class="btn btn-outline-purple btn-sm x_right position-absolute" style="top: 50%;transform: translateY(-50%);right: 0;z-index: 5;"><i class="fa-solid fa-less-than"></i></div>
+                        <div class="btn btn-outline-purple btn-sm x_left position-absolute" style="top: 50%;transform: translateY(-50%);left: 0;z-index: 5;"><i class="fa-solid fa-greater-than"></i></div>
+                        <div class="father pt-3 pb-3 pl-5 pr-2 position-relative" dir="ltr" style="overflow: auto;">
+                            <div class="child" style="gap: 15px;display: grid;grid-template-columns: repeat(7,250px);">
+                                <div class="card border-0 shadow-sm" style="width: 250px; min-width: 250px;">
+                                    <img src="img/lega/prim_1.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الانجليزي</p>
+                                            <p class = "small font-weight-bold text-right">فولهام يقتنص فوزا مثيرا من ضيفه برينتفورد</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/prim_2.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px;">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الانجليزي</p>
+                                            <p class = "small font-weight-bold text-right">مواجهة مانشستر يونايتد وتشيلسي تنتهي بالتعادل</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/prim_3.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الانجليزي</p>
+                                            <p class = "small font-weight-bold text-right">توتنهام يحقق فوزا عريضا علي استون فيلا</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/prim_4.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الانجليزي</p>
+                                            <p class = "small font-weight-bold text-right">مانشستر يونايتد يخوض مواجهة قويه أمام تشلسي</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/prim_5.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الانجليزي </p>
+                                            <p class = "small font-weight-bold text-right">مواجهة مرتقبه بين توتنهام وأرسنال</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/prim_6.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الانجليزي</p>
+                                            <p class = "small font-weight-bold text-right">نوتينغهام يواصل تألقه ويحقق فوزه الثالث تواليا</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div style="width: fit-content;padding: 0 10px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow rounded border-white bg-white mt-3 mb-3 position-relative cards">
+                        <h6 class="text-right pr-3 pt-3 mb-0"><img src="img/lalga.png" width="35" alt=""> الدوري الاسباني الممتاز </h6>
+                        <div class="btn btn-outline-purple btn-sm x_right position-absolute" style="top: 50%;transform: translateY(-50%);right: 0;z-index: 5;"><i class="fa-solid fa-less-than"></i></div>
+                        <div class="btn btn-outline-purple btn-sm x_left position-absolute" style="top: 50%;transform: translateY(-50%);left: 0;z-index: 5;"><i class="fa-solid fa-greater-than"></i></div>
+                        <div class="father pt-3 pb-3 pl-5 pr-2 position-relative" dir="ltr" style="overflow: auto;">
+                            <div class="child" style="gap: 15px;display: grid;grid-template-columns: repeat(7,250px);">
+                                <div class="card border-0 shadow-sm" style="width: 250px; min-width: 250px;">
+                                    <img src="img/lega/barchalona.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الاسباني</p>
+                                            <p class = "small font-weight-bold text-right">برشلونه يختتم تحضيراته لمواجهة اسبانيول</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/bodemr.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px;">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الاسباني</p>
+                                            <p class = "small font-weight-bold text-right">بوديمير يقود أوساسونا للفوز علي بلد الواليد</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/barchalona_team.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الاسباني</p>
+                                            <p class = "small font-weight-bold text-right">برشلونه للابتعاد اكثر بالصدارة من بوابه اسبانيول</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/van_de_bek.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الاسباني</p>
+                                            <p class = "small font-weight-bold text-right">فان دي بيك يتحدث عن تجربته في فيرونا</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/atletco.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الاسباني</p>
+                                            <p class = "small font-weight-bold text-right">أتليتيكو مدريد يتخطي ضيفه لاس بالماس</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/vedio_5.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الاسباني</p>
+                                            <p class = "small font-weight-bold text-right">برشلونه يحسم مواجهة ديربي كاتالونيا أمام اسبانيول</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div style="width: fit-content;padding: 0 10px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow rounded border-white bg-white mt-3 mb-3 position-relative cards">
+                        <h6 class="text-right pr-3 pt-3 mb-0"><img src="img/french.png" width="35" alt=""> الدوري الفرنسي الممتاز </h6>
+                        <div class="btn btn-outline-purple btn-sm x_right position-absolute" style="top: 50%;transform: translateY(-50%);right: 0;z-index: 5;"><i class="fa-solid fa-less-than"></i></div>
+                        <div class="btn btn-outline-purple btn-sm x_left position-absolute" style="top: 50%;transform: translateY(-50%);left: 0;z-index: 5;"><i class="fa-solid fa-greater-than"></i></div>
+                        <div class="father pt-3 pb-3 pl-5 pr-2 position-relative" dir="ltr" style="overflow: auto;">
+                            <div class="child" style="gap: 15px;display: grid;grid-template-columns: repeat(7,250px);">
+                                <div class="card border-0 shadow-sm" style="width: 250px; min-width: 250px;">
+                                    <img src="img/lega/f1.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الفرنسي</p>
+                                            <p class = "small font-weight-bold text-right">حكيمي يعيش فتره متوهجة مع باريس سان جيرمان</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/f2.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px;">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الفرنسي</p>
+                                            <p class = "small font-weight-bold text-right">مارسيليا يقتنس فوزا ثمينا من مستضيفه نانت</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/f3.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الفرنسي</p>
+                                            <p class = "small font-weight-bold text-right">ديمبلي يقود باريس سان جيرمان للفوز علي لونس</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/f5.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الفرنسي</p>
+                                            <p class = "small font-weight-bold text-right">ليون يدرك التعادل امام ليل في الوقت القاتل</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/f4.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الفرنسي</p>
+                                            <p class = "small font-weight-bold text-right">باريس سان جيرمان لتعزيز صدارته من بوابه لونس</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/f6.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الفرنسي</p>
+                                            <p class = "small font-weight-bold text-right">هزيمه مدويه لموناكو أمام أنجيه</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div style="width: fit-content;padding: 0 10px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow rounded border-white bg-white mt-3 mb-3 position-relative cards">
+                        <h6 class="text-right pr-3 pt-3 mb-0"><img src="img/german.png" width="35" alt=""> الدوري الالماني الممتاز </h6>
+                        <div class="btn btn-outline-purple btn-sm x_right position-absolute" style="top: 50%;transform: translateY(-50%);right: 0;z-index: 5;"><i class="fa-solid fa-less-than"></i></div>
+                        <div class="btn btn-outline-purple btn-sm x_left position-absolute" style="top: 50%;transform: translateY(-50%);left: 0;z-index: 5;"><i class="fa-solid fa-greater-than"></i></div>
+                        <div class="father pt-3 pb-3 pl-5 pr-2 position-relative" dir="ltr" style="overflow: auto;">
+                            <div class="child" style="gap: 15px;display: grid;grid-template-columns: repeat(7,250px);">
+                                <div class="card border-0 shadow-sm" style="width: 250px; min-width: 250px;">
+                                    <img src="img/lega/B1.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الالماني</p>
+                                            <p class = "small font-weight-bold text-right">التعادل يحسم مباراة فرايبورغ وماينتس</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/B2.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px;">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الالماني</p>
+                                            <p class = "small font-weight-bold text-right">بوروسيا دورتموند يجاوز عقبه ضيفه لايبتسيغ</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/B3.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الالماني</p>
+                                            <p class = "small font-weight-bold text-right">اينتراخت فرانكفورت يكتسح بوخوم ومرموش يواصل التألق</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/B4.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الالماني</p>
+                                            <p class = "small font-weight-bold text-right">بايرن ميونيخ يتفوق علي اونيون برلين بثلاثيه</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/B5.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الالماني</p>
+                                            <p class = "small font-weight-bold text-right">التعادل السلبي يحسم مباراه بايرليفركوزن وشتوتغارت</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/B6.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الالماني</p>
+                                            <p class = "small font-weight-bold text-right">ليفركوزن يستضيف شتوتغارت في مواجهة مرتقبه</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div style="width: fit-content;padding: 0 10px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow rounded border-white bg-white mt-3 position-relative cards">
+                        <h6 class="text-right pr-3 pt-3 mb-0"><img src="img/lega/italy.png" width="35" alt=""> الدوري الايطالي الممتاز </h6>
+                        <div class="btn btn-outline-purple btn-sm x_right position-absolute" style="top: 50%;transform: translateY(-50%);right: 0;z-index: 5;"><i class="fa-solid fa-less-than"></i></div>
+                        <div class="btn btn-outline-purple btn-sm x_left position-absolute" style="top: 50%;transform: translateY(-50%);left: 0;z-index: 5;"><i class="fa-solid fa-greater-than"></i></div>
+                        <div class="father pt-3 pb-3 pl-5 pr-2 position-relative" dir="ltr" style="overflow: auto;">
+                            <div class="child" style="gap: 15px;display: grid;grid-template-columns: repeat(7,250px);">
+                                <div class="card border-0 shadow-sm" style="width: 250px; min-width: 250px;">
+                                    <img src="img/lega/I1.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الايطالي</p>
+                                            <p class = "small font-weight-bold text-right">هل يستعيد مهاجم الأتزوري السابق ذكرياته في بلاده؟</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/I2.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px;">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الايطالي</p>
+                                            <p class = "small font-weight-bold text-right">جنوى يعلن التعاقد مع بالوتيلي</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/I3.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الايطالي</p>
+                                            <p class = "small font-weight-bold text-right">إنزاغي يدرك مدى أهمية مواجهة يوفنتوس</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/I4.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الايطالي</p>
+                                            <p class = "small font-weight-bold text-right">ردود الفعل حول تخفيض عقوبة بوغبا</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/I5.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الايطالي</p>
+                                            <p class = "small font-weight-bold text-right">اعتقال عناصر من أولتراس إنتر وميلان</p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow-sm" style="max-width: 250px;">
+                                    <img src="img/lega/I6.jfif" alt="" class="card-img-top" style="max-width: 100%;pointer-events: none;height: 150px">
+                                    <div class="card-body p-2" dir="rtl">
+                                        <div class="card-title" dir="rtl">
+                                            <p class = "small font-weight-bolder text-purple mb-1 text-right">الدوري الايطالي</p>
+                                            <p class = "small font-weight-bold text-right">إنتر يحقق فوزاً مثيراً أمام أودينيزي </p>
+                                        </div>
+                                        
+                                        <a href="#" class = "stretched-link"></a>
+                                    </div>
+                                </div>
+                                <div style="width: fit-content;padding: 0 10px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 p-sm-0 p-md-2 mb-3">
+                    <div class="shadow p-2 pr-3 rounded bg-white">
+                        <div class="header d-flex align-items-end justify-content-between ">
+                            <h6 class="mb-0">أحدث مقاطع الفيديوهات</h6>
+                            <a href="#" class="btn btn-outline-purple shadow-none btn-sm d-block more" style="box-shadow: none !important" dir="rtl">المزيد<i class="fa-solid fa-arrow-left-long mr-1 align-middle"></i></a>
+                        </div>
+                        <div class="group_of_card pt-4">
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G1.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">كرة القدم</p>
+                                    <p class="mb-0 font-weight-bold">هدف مميز سجل من منتصف الملعب</p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G2.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">NPA</p>
+                                    <p class="mb-0 font-weight-bolder">ليلارد يضع حداً لسلسلة هزائم ميلووكي باكس </p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G3.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">الدوري الاوروبي</p>
+                                    <p class="mb-0 font-weight-bolder">لاتسيو يهزم بورتو بهدف قاتل من بيدرو</p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G4.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">الدوري المؤتمر الاوروبي</p>
+                                    <p class="mb-0 font-weight-bolder">تشلسي يواصل نتائجه الملفتة</p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G5.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">الدوري الاوروبي</p>
+                                    <p class="mb-0 font-weight-bolder">مانشستر يونايتد يتجاوز باوك بثنائية نظيفة </p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G6.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">الدوري الاوروبي</p>
+                                    <p class="mb-0 font-weight-bolder">التعادل يخيّم على مواجهة سان جيلواز وروما</p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G7.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">الدوري الاوروبي</p>
+                                    <p class="mb-0 font-weight-bolder">أولمبياكوس يتعادل مع رينجرز </p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G8.jfif" alt="" width="80" height="75" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">الدوري الاوروبي</p>
+                                    <p class="mb-0 font-weight-bolder">ناغلسمان يختار تشكيلة ألمانيا </p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G9.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">الدوري الاوروبي</p>
+                                    <p class="mb-0 font-weight-bolder">فوز ثمين لغلطة سراي على توتنهام</p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G10.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">كرة القدم</p>
+                                    <p class="mb-0 font-weight-bolder">مجلس إدارة الاتحاد المصري يُقيل لجنة الحكام </p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G11.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">الدوري الامم الاوروبي</p>
+                                    <p class="mb-0 font-weight-bolder">ديشان يكشف سبب عدم توجيه الدعوة لمبابي</p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G12.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">تصفيات كأس الامم الافريقيه</p>
+                                    <p class="mb-0 font-weight-bolder">الإعلان عن قائمة المنتخب الجزائري</p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G13.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">تصفيات كأس الامم الافريقيه</p>
+                                    <p class="mb-0 font-weight-bolder">اليعقوبي يعلن قائمة تونس لمواجهتي مدغشقر وغامبيا</p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G14.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">دوري الامم الاوروبيه</p>
+                                    <p class="mb-0 font-weight-bolder">الكشف عن قائمة المنتخب الإنجليزي</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    
+    <footer class="bg-purple pt-4 pb-4 mt-2">
+        <div class="container">
+            <div class="row" dir="rtl">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1 text-right this d-flex justify-content-between">
+                    <ul class="list-group bg-transparent text-white list-group-flush p-1" dir="rtl">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3">
+                            <h4>الدعم</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">اتصل بنا</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">beIN CONNECT</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">beIN MEDIA GROUP</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">الاسئله الاكثر شيوعا</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN</bdi> نبذه عن مجموعه </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>   ترددات  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> دليل التلفاز </a>
+                        </li>
+                    </ul>
+                    <ul class="list-group bg-transparent text-white list-group-flush mr-2 mt-1 p-0">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3 invisible">
+                            <h4>الدعم</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">احصل علي <bdi>beIN</bdi></a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">اشترك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">بلدي <bdi>beIN</bdi> </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">مركز الاتصال</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>  امريكا  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>   استراليا  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> معلومات عن هذا الموقع </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 this pr-sm-1 pr-lg-5 last pt-1">
+                    <ul class="list-group bg-transparent text-white list-group-flush p-1 text-right" dir="rtl">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3">
+                            <h4>تابعونا</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">فيسبوك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">x</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">يوتيوب</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">انستجرام</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">تيك توك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> واتساب </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> نريدز</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class = "links pt-4 w-md-100">
+                        <div class = "link_1">
+                            <a href="#">
+                                <img src="img/brand.webp" alt="" width="190" style="max-width: 100%;">
+                            </a>
+                        </div>
+                        <p class="mt-5 font-weight-bolder text-white">قم بتنزيل تطبيقاتنا</p>
+                        <div class="link_1">
+                            <a href="#">
+                                <img src="img/link_1.png" alt="" class="ml-2 d-inline-block" width="120">
+                            </a>
+                            <a href="#">
+                                <img src="img/link_2.png" alt=""  width="120">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src = "bootStrap/popper.min.js"></script>
+<script src = "bootStrap/jquery-3.7.1.min.js"></script>
+<script src = "bootStrap/bootstrap.js"></script>
+<script src = "css/index.js"></script>
+</html>

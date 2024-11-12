@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="bootStrap/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="bg-light live">
+    <header class = "shadow-sm fixed-top bg-light">
+        <div class="container pr-0 pl-0">
+            <nav class="navbar navbar-expand-lg navbar-light flex-row-reverse pr-0">
+                <a class="navbar-brand text-right" href="index.html"><img src="img/logo.webp" class = "mw-100" alt=""></a>
+                <div class="btns order-lg-3">
+                    <button class="navbar-toggler order-md-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class = "btn btn-default text-secandary" id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                    <ul class="navbar-nav flex-md-column-reverse flex-lg-row-reverse text-right pr-4">
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="index.html" opin = "true">الرئيسيه</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="file.html" opin = "true">نتائج مباشره</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="video.html" opin = "true">الفيديو</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="live_1.html" opin = "true">مباشر</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="live.html" opin = "true">جدول البث</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <article class = "pt-5 mt-5">
+        <section class = "p-0 w-100">
+            <div class="container">
+                <div class="row flex-lg-row-reverse flex-md-row-reverse flex-column p-0 mini align-items-start">
+                    <div class="col-lg-8 col-md-6 col-sm-12 col-sm-12 pt-0 p-0">
+                        <ul class = "nav nav-pills pr-2 pl-2 flex-row-reverse  pt-0">
+                            <li class = "nav-item btn btn-sm border btn-filter" data="all">
+                                <a href="#" class="nav-link bg-transparent p-0 pl-2 pr-2 small text-dark" data-toggle="pill">الكل</a>
+                            </li>
+                            <li class = "nav-item btn btn-sm  mr-2 border btn-filter" data="live">
+                                <a href="#" class="nav-link bg-transparent p-0 pl-2 pr-2 small text-reset" data-toggle="pill">البث حاليا</a>
+                            </li>
+                        </ul>
+                        
+                        <div class="d-flex justify-content-between small pl-3 pr-3 mt-3 font-weight-bold mb-n2">
+                            <img src="img/bein1.png" style="width: 90px;height: 14px;" alt="bein"> beIN SPORTS 1
+                        </div>
+                        <div class="tab-content pt-3">
+                            <div class="tab-pane container active" id="home">
+                                <div class="child position-relative">
+                                    <div class="scroll-horizontial p-1" style="min-height: 120px;" dir="rtl">
+                                        <div class = "fixed mt-5 right bg-white h-75" data="right" style="right: 0px; top: 19%;padding: 35px 0;backdrop-filter: blur(10px);box-shadow: -5px 0 5px 5px #ffffff7b;"><div class="btn border btn-sm pt-0 pb-0">&#8919</div></div>
+                                        <div class="card-component p-3" dir="rtl">
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2 rounded">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr""><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "fixed mt-5 left bg-white h-75" data="left" style="left: 0px; top: 19%;padding: 35px 0;backdrop-filter: blur(10px);box-shadow: 5px 0 5px 5px #ffffff7b;"><div class="btn border btn-sm pt-0 pb-0">&#8918</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade live_server" id="menu1">live</div>
+                        </div>
+
+                        <div class="d-flex justify-content-between small pl-3 pr-3 mt-3 font-weight-bold mb-n2">
+                            <img src="img/bein2.png" style="width: 90px;height: 14px;" alt="bein"> beIN SPORTS 2
+                        </div>
+                        <div class="tab-content pt-3">
+                            <div class="tab-pane container active" id="home">
+                                <div class="child position-relative">
+                                    <div class="scroll-horizontial p-1" style="min-height: 120px;" dir="rtl">
+                                        <div class = "fixed mt-5 right bg-white h-75" data="right" style="right: 0px; top: 19%;padding: 35px 0;backdrop-filter: blur(10px);box-shadow: -5px 0 5px 5px #ffffff7b;"><div class="btn border btn-sm pt-0 pb-0">&#8919</div></div>
+                                        <div class="card-component p-3" dir="rtl">
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2 rounded">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "fixed mt-5 left bg-white h-75" data="left" style="left: 0px; top: 19%;padding: 35px 0;backdrop-filter: blur(10px);box-shadow: 5px 0 5px 5px #ffffff7b;"><div class="btn border btn-sm pt-0 pb-0">&#8918</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade live_server" id="menu1">live</div>
+                        </div>
+                        <div class="d-flex justify-content-between small pl-3 pr-3 mt-3 font-weight-bold mb-n2">
+                            <img src="img/bein3.png" style="width: 90px;height: 14px;" alt="bein"> beIN SPORTS 3
+                        </div>
+                        <div class="tab-content pt-3">
+                            <div class="tab-pane container active" id="home">
+                                <div class="child position-relative">
+                                    <div class="scroll-horizontial p-1" style="min-height: 120px;" dir="rtl">
+                                        <div class = "fixed mt-5 right bg-white h-75" data="right" style="right: 0px; top: 19%;padding: 35px 0;backdrop-filter: blur(10px);box-shadow: -5px 0 5px 5px #ffffff7b;"><div class="btn border btn-sm pt-0 pb-0">&#8919</div></div>
+                                        <div class="card-component p-3" dir="rtl">
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2 rounded">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div style="width: fit-content;" class="invisible">00</div>
+                                        </div>
+                                        <div class = "fixed mt-5 left bg-white h-75" data="left" style="left: 0px; top: 19%;padding: 35px 0;backdrop-filter: blur(10px);box-shadow: 5px 0 5px 5px #ffffff7b;"><div class="btn border btn-sm pt-0 pb-0">&#8918</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade live_server" id="menu1">live</div>
+                        </div>
+                        <div class="d-flex justify-content-between small pl-3 pr-3 mt-3 font-weight-bold mb-n2">
+                            <img src="img/bein4.png" style="width: 90px;height: 14px;" alt="bein"> beIN SPORTS 4
+                        </div>
+                        <div class="tab-content pt-3">
+                            <div class="tab-pane container active" id="home">
+                                <div class="child position-relative">
+                                    <div class="scroll-horizontial p-1" style="min-height: 120px;" dir="rtl">
+                                        <div class = "fixed mt-5 right bg-white h-75" data="left" style="right: 0px; top: 19%;padding: 35px 0;backdrop-filter: blur(10px);box-shadow: -5px 0 5px 5px #ffffff7b;"><div class="btn border btn-sm pt-0 pb-0">&#8919</div></div>
+                                        <div class="card-component p-3" dir="rtl">
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2 rounded">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"> <span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "fixed mt-5 left bg-white h-75" data="left" style="left: 0px; top: 19%;padding: 35px 0;backdrop-filter: blur(10px);box-shadow: 5px 0 5px 5px #ffffff7b;"><div class="btn border btn-sm pt-0 pb-0">&#8918</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade live_server" id="menu1">live</div>
+                        </div>
+                        <div class="d-flex justify-content-between small pl-3 pr-3 mt-3 font-weight-bold mb-n2">
+                            <img src="img/bein5.png" style="width: 90px;height: 14px;" alt="bein"> beIN SPORTS 5
+                        </div>
+                        <div class="tab-content pt-3">
+                            <div class="tab-pane container active" id="home">
+                                <div class="child position-relative">
+                                    <div class="scroll-horizontial p-1" style="min-height: 120px;" dir="rtl">
+                                        <div class = "fixed mt-5 right bg-white h-75" data="right" style="right: 0px; top: 19%;padding: 35px 0;backdrop-filter: blur(10px);box-shadow: -5px 0 5px 5px #ffffff7b;"><div class="btn border btn-sm pt-0 pb-0">&#8919</div></div>
+                                        <div class="card-component p-3" dir="rtl">
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2 rounded">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "fixed mt-5 left bg-white h-75" data="left" style="left: 0px; top: 19%;padding: 35px 0;backdrop-filter: blur(10px);box-shadow: 5px 0 5px 5px #ffffff7b;"><div class="btn border btn-sm pt-0 pb-0">&#8918</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade live_server" id="menu1">live</div>
+                        </div>
+                        <div class="d-flex justify-content-between small pl-3 pr-3 mt-3 font-weight-bold mb-n2">
+                            <img src="img/bein6.png" style="width: 90px;height: 14px;" alt="bein"> beIN SPORTS 6
+                        </div>
+                        <div class="tab-content pt-3">
+                            <div class="tab-pane container active" id="home">
+                                <div class="child position-relative">
+                                    <div class="scroll-horizontial p-1" style="min-height: 120px;" dir="rtl">
+                                        <div class = "fixed mt-5 right bg-white h-75" data="right" style="right: 0px; top: 19%;padding: 35px 0;backdrop-filter: blur(10px);box-shadow: -5px 0 5px 5px #ffffff7b;"><div class="btn border btn-sm pt-0 pb-0">&#8919</div></div>
+                                        <div class="card-component p-3" dir="rtl">
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2 rounded">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span> الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr"><span class="spinner-grow spinner-grow-sm text-danger mb-0 mr-2"></span>الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                            <div class="card border-0 shadow-sm bg-white p-2 m-n2">
+                                                <p class="text-right text-purple font-weight-bolder small" dir="ltr">الدوري الاسباني</p>
+                                                <p class = "text-right font-weight-bolder text-secandary mt-n2">Barcelona VS Real Maderid </p>
+                                                <div class = "d-flex justify-content-between">
+                                                    <p class="mb-0 small">07:10</p>
+                                                    <p class="mb-0 small">07:10</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class = "fixed mt-5 left bg-white h-75" data="left" style="left: 0px; top: 19%;padding: 35px 0;backdrop-filter: blur(10px);box-shadow: 5px 0 5px 5px #ffffff7b;"><div class="btn border btn-sm pt-0 pb-0">&#8918</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade live_server" id="menu1">live</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 p-0 col-sm-12 pr-2 pl-2 pt-0">
+                        <div class="competitions shadow-sm mt-3 bg-white rounded">
+                            <p class = "font-weight-bolder small text-right  p-2 mb-2 pr-3 pt-3">أحدث مقاطع الفيديو</p>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2 " dir="rtl">
+                                    <img src="img/vedio_1.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 70px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري الانجليزي الممتاز</p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">أرسنال يسعي لتجنب الخساره أمام ليفربول</p>
+                                        <p class = "small text-secondary mb-0">13:37</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media p-0 border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_2.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 70px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري التركي الممتاز</p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">لقاء خاص مع رشيد غزال</p>
+                                        <p class = "small text-secondary mb-0">13:36</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media p-0 border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_3.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 70px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري الايطالي الممتاز</p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">انراغي يدرك مدي أهميه مواجهت يوفينتوس</p>
+                                        <p class = "small text-secondary mb-0">12:30</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_4.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 70px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري الفرنسي </p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">قمه كبيره مرتقبه بين مارسيليا وباريس سان جيرمان</p>
+                                        <p class = "small text-secondary mb-0">12:51</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_5.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 70px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري الاسباني </p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">لامين جمال أصغر لاعب يسجل في الكلاسيكو</p>
+                                        <p class = "small text-secondary mb-0">00:11</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_6.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 70px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري الاسباني </p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">برشلونه يحسم الكلاسيكو برباعيه في شباك ريال مدريد</p>
+                                        <p class = "small text-secondary mb-0">12:51</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_7.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 70px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">البادل</p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">ستوباتشوك وييانغواس يتجوجان بلقب بطوله نيو جيزة</p>
+                                        <p class = "small text-secondary mb-0">Oct26</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_8.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 70px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">الدوري الالماني </p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">باير ليفركوزن يتعثر في بريمن</p>
+                                        <p class = "small text-secondary mb-0">Oct26</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-2">
+                                <div class="media border-bottom pb-2" dir="rtl">
+                                    <img src="img/vedio_9.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 70px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">كأس السوبر الافريقي</p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">الاتحاد الافريقي يفرض عقوبه علي الزمالك</p>
+                                        <p class = "small text-secondary mb-0">Oct26</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="d-block pr-2 pl-2 pb-0">
+                                <div class="media pb-2" dir="rtl">
+                                    <img src="img/vedio_10.jfif" alt="John Doe" class="mr-2 mb-2 mt-2 rounded" style="width:80px;height: 70px;">
+                                    <div class="media-body text-right pr-2 pl-2" dir="rtl">
+                                        <p class = "small text-purple mb-0">دوري نجوم قطر</p>
+                                        <p class = "small text-dark mb-0 font-weight-bolder">الريان يكتفي بالتعادل مع الاهلي</p>
+                                        <p class = "small text-secondary mb-0">Oct26</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </article>
+    
+    <footer class="bg-purple pt-4 pb-4 mt-2">
+        <div class="container">
+            <div class="row" dir="rtl">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1 text-right this d-flex justify-content-between">
+                    <ul class="list-group bg-transparent text-white list-group-flush p-1" dir="rtl">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3">
+                            <h4>الدعم</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">اتصل بنا</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">beIN CONNECT</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">beIN MEDIA GROUP</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">الاسئله الاكثر شيوعا</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN</bdi> نبذه عن مجموعه </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>   ترددات  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> دليل التلفاز </a>
+                        </li>
+                    </ul>
+                    <ul class="list-group bg-transparent text-white list-group-flush mr-2 mt-1 p-0">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3 invisible">
+                            <h4>الدعم</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">احصل علي <bdi>beIN</bdi></a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">اشترك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">بلدي <bdi>beIN</bdi> </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">مركز الاتصال</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>  امريكا  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>   استراليا  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> معلومات عن هذا الموقع </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 this pr-sm-1 pr-lg-5 last pt-1">
+                    <ul class="list-group bg-transparent text-white list-group-flush p-1 text-right" dir="rtl">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3">
+                            <h4>تابعونا</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">فيسبوك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">x</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">يوتيوب</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">انستجرام</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">تيك توك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> واتساب </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> نريدز</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class = "links pt-4 w-md-100">
+                        <div class = "link_1">
+                            <a href="#">
+                                <img src="img/brand.webp" alt="" width="190" style="max-width: 100%;">
+                            </a>
+                        </div>
+                        <p class="mt-5 font-weight-bolder text-white">قم بتنزيل تطبيقاتنا</p>
+                        <div class="link_1">
+                            <a href="#">
+                                <img src="img/link_1.png" alt="" class="ml-2 d-inline-block" width="120">
+                            </a>
+                            <a href="#">
+                                <img src="img/link_2.png" alt=""  width="120">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src = "bootStrap/popper.min.js"></script>
+<script src = "bootStrap/jquery-3.7.1.min.js"></script>
+<script src = "bootStrap/bootstrap.js"></script>
+<script src = "css/index.js"></script>
+</html>

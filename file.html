@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="bootStrap/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body class="bg-light live pt-5">
+    <header class = "shadow-sm fixed-top bg-light">
+        <div class="container pr-0 pl-0">
+            <nav class="navbar navbar-expand-lg navbar-light flex-row-reverse pr-0">
+                <a class="navbar-brand text-right" href="index.html"><img src="img/logo.webp" class = "mw-100" alt=""></a>
+                <div class="btns order-lg-3">
+                    <button class="navbar-toggler order-md-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class = "btn btn-default text-secandary" id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                    <ul class="navbar-nav flex-md-column-reverse flex-lg-row-reverse text-right pr-4">
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="index.html" opin = "true">الرئيسيه</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="file.html" opin = "true">نتائج مباشره</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="video.html" opin = "true">الفيديو</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="live_1.html" opin = "true">مباشر</a>
+                        </li>
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="live.html" opin = "true">جدول البث</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <article class="pt-5 pb-5">
+        <div class="container">
+            <div class="row flex-row-reverse">
+                <div class="col-sm-12 col-md-12 col-lg-8">
+                    <div class="header_date bg-white shadow rounded">
+                        <ul class="nav nav-tabs flex-row-reverse nav-justified">
+                            <li class="nav-item nb5">
+                                <a class="nav-link" data-toggle="tab" href="#home">
+                                    <p class="m-0 small">الاحد</p>
+                                    <p class="m-0 small">نوفمبر <bdi>10</bdi></p>
+                                </a>
+                            </li>
+                            <li class="nav-item nb5">
+                                <a class="nav-link" data-toggle="tab" href="#menu1">
+                                    <p class="m-0 small">الاثنين</p>
+                                    <p class="m-0 small">نوفمبر <bdi>11</bdi></p>
+                                </a>
+                            </li>
+                            <li class="nav-item nb5">
+                                <a class="nav-link active" data-toggle="tab" href="#menu2">
+                                    <p class="m-0 small">الثلاثاء</p>
+                                    <p class="m-0 small">نوفمبر <bdi>12</bdi></p>
+                                </a>
+                            </li>
+                            <li class="nav-item nb5">
+                                <a class="nav-link" data-toggle="tab" href="#menu3">
+                                    <p class="m-0 small">الاربعاء</p>
+                                    <p class="m-0 small">نوفمبر <bdi>13</bdi></p>
+                                </a>
+                            </li>
+                            <li class="nav-item nb5">
+                                <a class="nav-link" data-toggle="tab" href="#menu4">
+                                    <p class="m-0 small">الخميس</p>
+                                    <p class="m-0 small">نوفمبر <bdi>14</bdi></p>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content p-3 bg-white border border-top-0">
+                            <div class="tab-pane container fade" id="home">
+                                <div class="row justify-content-center">
+                                    <div class="col-sm-12 col-md-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/barcel.png" width="50" alt="">
+                                            <p>Barcelona</p>
+                                        </div>
+                                        <div class="score d-flex align-items-center text-danger pr-2">
+                                            4 - 0
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/byern.png" width="50" alt="">
+                                            <p>Bayern</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/juv.png" width="50" alt="">
+                                            <p>Juventus</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center text-danger">
+                                            0 - 0
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/roma.png" width="50" alt="">
+                                            <p>Rome</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/chelse.png" width="50" alt="">
+                                            <p>Chelse</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center text-danger">
+                                            2 - 0
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/melan.png" width="50" alt="">
+                                            <p>Melan</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/inter.png" width="50" alt="">
+                                            <p>Inter</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center text-danger">
+                                            1 - 1
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/naboly.png" width="50" alt="">
+                                            <p>Naboly</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade" id="menu1">
+                                <div class="row justify-content-center">
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/marcelya.png" width="50" alt="">
+                                            <p>Marcelya</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center text-danger">
+                                            0 - 0
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/parice.png" width="50" alt="">
+                                            <p>Parice</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/real.png" width="50" alt="">
+                                            <p>Real M.</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center text-danger">
+                                            1 - 1
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/ar.png" width="50" alt="">
+                                            <p>Arsenal</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/atletcoo.png" width="50" alt="">
+                                            <p class="small">Atletco</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center text-danger">
+                                            0 - 1
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/alavist_.png" width="50" alt="">
+                                            <p>Alavist</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/eleen.png" width="50" alt="">
+                                            <p>العين</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center text-danger">
+                                            3 - 4
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/al_helal.png" width="50" alt="">
+                                            <p>الهلال</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane container active" id="menu2">
+                                <div class="row justify-content-center">
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/united.png" width="50" alt="">
+                                            <p>Man U.</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center">
+                                            13:10
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/man_city.png" width="50" alt="">
+                                            <p>Man City</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/nant.png" width="50" alt="">
+                                            <p>Nant</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center">
+                                            13:10
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/monako_logo.png" width="50" alt="">
+                                            <p>Monako</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/toten_ham.png" width="50" alt="">
+                                            <p>Toten H.</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center">
+                                            13:10
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/westHam.png" width="50" alt="">
+                                            <p>West Ham</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/pro.png" width="50" alt="">
+                                            <p>Porto</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center">
+                                            13:10
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lister.png" width="50" alt="">
+                                            <p>Lister City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade" id="menu3">
+                                <div class="row justify-content-center">
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/marcelya.png" width="50" alt="">
+                                            <p>Marcelya</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center">
+                                            13:10
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/parice.png" width="50" alt="">
+                                            <p>Price</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/al_helal.png" width="50" alt="">
+                                            <p>الهلال</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center">
+                                            13:10
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/eleen.png" width="50" alt="">
+                                            <p>العين</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/roma.png" width="50" alt="">
+                                            <p>Roma</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center">
+                                            13:10
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/toten.png" width="50" alt="">
+                                            <p>Toten H.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/juv.png" width="50" alt="">
+                                            <p>Juventus</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center">
+                                            13:10
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/melan.png" width="50" alt="">
+                                            <p>Melan</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade" id="menu4">
+                                <div class="row justify-content-center">
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/ar.png" width="50" alt="">
+                                            <p>Arsenal</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center">
+                                            13:10
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/naboly.png" width="50" alt="">
+                                            <p>Naboly</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/barcel.png" width="50" alt="">
+                                            <p>Barcelona</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center">
+                                            13:10
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/real.png" width="50" alt="">
+                                            <p>Real M.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/alavist_.png" width="50" alt="">
+                                            <p>Alavist</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center">
+                                            13:10
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/atletcoo.png" width="50" alt="">
+                                            <p>Atletco</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-5 border m-1 d-flex justify-content-between" style="border-radius: 25px !important;">
+                                        <div class="team text-center pt-3">
+                                            <img src="img/westHam.png" width="50" alt="">
+                                            <p>West Ham</p>
+                                        </div>
+                                        <div class="score text-center d-flex align-items-center">
+                                            13:10
+                                        </div>
+                                        <div class="team text-center pt-3">
+                                            <img src="img/lega/chelse.png" width="50" alt="">
+                                            <p>Chelse</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 mt-sm-4 mt-lg-0" dir="rtl">
+                    <div class="shadow p-2 pr-3 rounded bg-white border">
+                        <div class="header d-flex align-items-end justify-content-between ">
+                            <h6 class="mb-0">أحدث مقاطع الفيديوهات</h6>
+                            <a href="#" class="btn btn-outline-purple shadow-none btn-sm d-block more" style="box-shadow: none !important" dir="rtl">المزيد<i class="fa-solid fa-arrow-left-long mr-1 align-middle"></i></a>
+                        </div>
+                        <div class="group_of_card pt-4">
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G1.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">كرة القدم</p>
+                                    <p class="mb-0 font-weight-bold">هدف مميز سجل من منتصف الملعب</p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G2.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">NPA</p>
+                                    <p class="mb-0 font-weight-bolder">ليلارد يضع حداً لسلسلة هزائم ميلووكي باكس </p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G3.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">الدوري الاوروبي</p>
+                                    <p class="mb-0 font-weight-bolder">لاتسيو يهزم بورتو بهدف قاتل من بيدرو</p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G4.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">الدوري المؤتمر الاوروبي</p>
+                                    <p class="mb-0 font-weight-bolder">تشلسي يواصل نتائجه الملفتة</p>
+                                </div>
+                            </div>
+                            <div class="media p-1 border-bottom mb-2 pb-2">
+                                <img src="img/lega/G5.jfif" alt="" width="80" height="80" class="rounded ml-1 mb-0">
+                                <div class="media-body text-right pr-1">
+                                    <p class="mb-1 text-purple small">الدوري الاوروبي</p>
+                                    <p class="mb-0 font-weight-bolder">مانشستر يونايتد يتجاوز باوك بثنائية نظيفة </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer class="bg-purple pt-4 pb-4 mt-2">
+        <div class="container">
+            <div class="row" dir="rtl">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 p-1 text-right this d-flex justify-content-between">
+                    <ul class="list-group bg-transparent text-white list-group-flush p-1" dir="rtl">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3">
+                            <h4>الدعم</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">اتصل بنا</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">beIN CONNECT</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">beIN MEDIA GROUP</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">الاسئله الاكثر شيوعا</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN</bdi> نبذه عن مجموعه </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>   ترددات  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> دليل التلفاز </a>
+                        </li>
+                    </ul>
+                    <ul class="list-group bg-transparent text-white list-group-flush mr-2 mt-1 p-0">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3 invisible">
+                            <h4>الدعم</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">احصل علي <bdi>beIN</bdi></a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">اشترك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">بلدي <bdi>beIN</bdi> </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">مركز الاتصال</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>  امريكا  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> <bdi>beIN SPORT</bdi>   استراليا  </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> معلومات عن هذا الموقع </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 this pr-sm-1 pr-lg-5 last pt-1">
+                    <ul class="list-group bg-transparent text-white list-group-flush p-1 text-right" dir="rtl">
+                        <li class="list-group-item bg-transparent border-0 p-1 pb-2 mb-3">
+                            <h4>تابعونا</h4>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">فيسبوك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">x</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">يوتيوب</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">انستجرام</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset">تيك توك</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> واتساب </a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-1">
+                            <a href="#" class = "text-reset"> نريدز</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class = "links pt-4 w-md-100">
+                        <div class = "link_1">
+                            <a href="#">
+                                <img src="img/brand.webp" alt="" width="190" style="max-width: 100%;">
+                            </a>
+                        </div>
+                        <p class="mt-5 font-weight-bolder text-white">قم بتنزيل تطبيقاتنا</p>
+                        <div class="link_1">
+                            <a href="#">
+                                <img src="img/link_1.png" alt="" class="ml-2 d-inline-block" width="120">
+                            </a>
+                            <a href="#">
+                                <img src="img/link_2.png" alt=""  width="120">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src = "bootStrap/popper.min.js"></script>
+<script src = "bootStrap/jquery-3.7.1.min.js"></script>
+<script src = "bootStrap/bootstrap.js"></script>
+<script src = "css/index.js"></script>
+</html>
